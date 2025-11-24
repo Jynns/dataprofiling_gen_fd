@@ -1,0 +1,141 @@
+LHS,RHS
+['Dealer_Name'],Dealer_No 
+['Engine'],Transmission
+['Transmission'],Engine
+"['Price ($)', 'Model']",Company
+"['Date', 'Customer Name', 'Model']",Company
+"['Date', 'Customer Name', 'Model']",Body Style
+"['Customer Name', 'Dealer_Name', 'Model']",Company
+"['Dealer_No ', 'Customer Name', 'Model']",Company
+"['Dealer_Region', 'Customer Name', 'Model']",Company
+"['Body Style', 'Customer Name', 'Model']",Company
+"['Date', 'Dealer_Name', 'Model']",Company
+"['Dealer_Region', 'Date', 'Model']",Company
+"['Price ($)', 'Date', 'Customer Name', 'Annual Income']",Car_id
+"['Price ($)', 'Date', 'Customer Name', 'Annual Income']",Phone
+"['Price ($)', 'Date', 'Customer Name', 'Annual Income']",Model
+"['Price ($)', 'Date', 'Customer Name', 'Annual Income']",Company
+"['Price ($)', 'Date', 'Customer Name', 'Annual Income']",Dealer_Name
+"['Price ($)', 'Date', 'Customer Name', 'Annual Income']",Dealer_No 
+"['Price ($)', 'Date', 'Customer Name', 'Annual Income']",Dealer_Region
+"['Price ($)', 'Date', 'Customer Name', 'Annual Income']",Body Style
+"['Price ($)', 'Date', 'Customer Name', 'Annual Income']",Color
+"['Price ($)', 'Date', 'Customer Name', 'Annual Income']",Gender
+"['Price ($)', 'Date', 'Customer Name', 'Annual Income']",Engine
+"['Price ($)', 'Date', 'Customer Name', 'Annual Income']",Transmission
+"['Date', 'Customer Name', 'Annual Income', 'Model']",Car_id
+"['Date', 'Customer Name', 'Annual Income', 'Model']",Phone
+"['Date', 'Customer Name', 'Annual Income', 'Model']",Price ($)
+"['Date', 'Customer Name', 'Annual Income', 'Model']",Dealer_Name
+"['Date', 'Customer Name', 'Annual Income', 'Model']",Dealer_No 
+"['Date', 'Customer Name', 'Annual Income', 'Model']",Dealer_Region
+"['Date', 'Customer Name', 'Annual Income', 'Model']",Color
+"['Date', 'Customer Name', 'Annual Income', 'Model']",Gender
+"['Date', 'Customer Name', 'Annual Income', 'Model']",Engine
+"['Date', 'Customer Name', 'Annual Income', 'Model']",Transmission
+"['Date', 'Customer Name', 'Annual Income', 'Company']",Car_id
+"['Date', 'Customer Name', 'Annual Income', 'Company']",Phone
+"['Date', 'Customer Name', 'Annual Income', 'Company']",Price ($)
+"['Date', 'Customer Name', 'Annual Income', 'Company']",Model
+"['Date', 'Customer Name', 'Annual Income', 'Company']",Dealer_Name
+"['Date', 'Customer Name', 'Annual Income', 'Company']",Dealer_No 
+"['Date', 'Customer Name', 'Annual Income', 'Company']",Dealer_Region
+"['Date', 'Customer Name', 'Annual Income', 'Company']",Body Style
+"['Date', 'Customer Name', 'Annual Income', 'Company']",Color
+"['Date', 'Customer Name', 'Annual Income', 'Company']",Gender
+"['Date', 'Customer Name', 'Annual Income', 'Company']",Engine
+"['Date', 'Customer Name', 'Annual Income', 'Company']",Transmission
+"['Date', 'Customer Name', 'Annual Income', 'Dealer_Name']",Dealer_Region
+"['Date', 'Customer Name', 'Annual Income', 'Dealer_Name']",Gender
+"['Date', 'Customer Name', 'Annual Income', 'Dealer_Name']",Engine
+"['Date', 'Customer Name', 'Annual Income', 'Dealer_Name']",Transmission
+"['Dealer_No ', 'Date', 'Customer Name', 'Annual Income']",Gender
+"['Customer Name', 'Annual Income', 'Dealer_Name', 'Model']",Body Style
+"['Price ($)', 'Date', 'Customer Name', 'Model']",Color
+"['Price ($)', 'Date', 'Customer Name', 'Model']",Engine
+"['Price ($)', 'Date', 'Customer Name', 'Model']",Transmission
+"['Price ($)', 'Date', 'Customer Name', 'Company']",Model
+"['Price ($)', 'Date', 'Customer Name', 'Company']",Body Style
+"['Price ($)', 'Date', 'Customer Name', 'Company']",Color
+"['Price ($)', 'Date', 'Customer Name', 'Company']",Engine
+"['Price ($)', 'Date', 'Customer Name', 'Company']",Transmission
+"['Price ($)', 'Date', 'Customer Name', 'Dealer_Name']",Car_id
+"['Price ($)', 'Date', 'Customer Name', 'Dealer_Name']",Phone
+"['Price ($)', 'Date', 'Customer Name', 'Dealer_Name']",Annual Income
+"['Price ($)', 'Date', 'Customer Name', 'Dealer_Name']",Model
+"['Price ($)', 'Date', 'Customer Name', 'Dealer_Name']",Company
+"['Price ($)', 'Date', 'Customer Name', 'Dealer_Name']",Dealer_Region
+"['Price ($)', 'Date', 'Customer Name', 'Dealer_Name']",Body Style
+"['Price ($)', 'Date', 'Customer Name', 'Dealer_Name']",Color
+"['Price ($)', 'Date', 'Customer Name', 'Dealer_Name']",Gender
+"['Price ($)', 'Date', 'Customer Name', 'Dealer_Name']",Engine
+"['Price ($)', 'Date', 'Customer Name', 'Dealer_Name']",Transmission
+"['Price ($)', 'Dealer_No ', 'Date', 'Customer Name']",Car_id
+"['Price ($)', 'Dealer_No ', 'Date', 'Customer Name']",Phone
+"['Price ($)', 'Dealer_No ', 'Date', 'Customer Name']",Annual Income
+"['Price ($)', 'Dealer_No ', 'Date', 'Customer Name']",Model
+"['Price ($)', 'Dealer_No ', 'Date', 'Customer Name']",Company
+"['Price ($)', 'Dealer_No ', 'Date', 'Customer Name']",Dealer_Name
+"['Price ($)', 'Dealer_No ', 'Date', 'Customer Name']",Dealer_Region
+"['Price ($)', 'Dealer_No ', 'Date', 'Customer Name']",Body Style
+"['Price ($)', 'Dealer_No ', 'Date', 'Customer Name']",Color
+"['Price ($)', 'Dealer_No ', 'Date', 'Customer Name']",Gender
+"['Price ($)', 'Dealer_No ', 'Date', 'Customer Name']",Engine
+"['Price ($)', 'Dealer_No ', 'Date', 'Customer Name']",Transmission
+"['Price ($)', 'Dealer_Region', 'Date', 'Customer Name']",Car_id
+"['Price ($)', 'Dealer_Region', 'Date', 'Customer Name']",Phone
+"['Price ($)', 'Dealer_Region', 'Date', 'Customer Name']",Annual Income
+"['Price ($)', 'Dealer_Region', 'Date', 'Customer Name']",Model
+"['Price ($)', 'Dealer_Region', 'Date', 'Customer Name']",Company
+"['Price ($)', 'Dealer_Region', 'Date', 'Customer Name']",Dealer_Name
+"['Price ($)', 'Dealer_Region', 'Date', 'Customer Name']",Dealer_No 
+"['Price ($)', 'Dealer_Region', 'Date', 'Customer Name']",Body Style
+"['Price ($)', 'Dealer_Region', 'Date', 'Customer Name']",Color
+"['Price ($)', 'Dealer_Region', 'Date', 'Customer Name']",Gender
+"['Price ($)', 'Dealer_Region', 'Date', 'Customer Name']",Engine
+"['Price ($)', 'Dealer_Region', 'Date', 'Customer Name']",Transmission
+"['Price ($)', 'Body Style', 'Date', 'Customer Name']",Engine
+"['Price ($)', 'Body Style', 'Date', 'Customer Name']",Transmission
+"['Color', 'Price ($)', 'Date', 'Customer Name']",Engine
+"['Color', 'Price ($)', 'Date', 'Customer Name']",Transmission
+"['Price ($)', 'Customer Name', 'Dealer_Name', 'Model']",Dealer_Region
+"['Color', 'Price ($)', 'Customer Name', 'Model']",Engine
+"['Color', 'Price ($)', 'Customer Name', 'Model']",Transmission
+"['Date', 'Customer Name', 'Dealer_Name', 'Model']",Car_id
+"['Date', 'Customer Name', 'Dealer_Name', 'Model']",Phone
+"['Date', 'Customer Name', 'Dealer_Name', 'Model']",Annual Income
+"['Date', 'Customer Name', 'Dealer_Name', 'Model']",Price ($)
+"['Date', 'Customer Name', 'Dealer_Name', 'Model']",Dealer_Region
+"['Date', 'Customer Name', 'Dealer_Name', 'Model']",Color
+"['Date', 'Customer Name', 'Dealer_Name', 'Model']",Gender
+"['Date', 'Customer Name', 'Dealer_Name', 'Model']",Engine
+"['Date', 'Customer Name', 'Dealer_Name', 'Model']",Transmission
+"['Dealer_No ', 'Date', 'Customer Name', 'Model']",Dealer_Region
+"['Dealer_No ', 'Date', 'Customer Name', 'Model']",Color
+"['Dealer_No ', 'Date', 'Customer Name', 'Model']",Gender
+"['Date', 'Customer Name', 'Dealer_Name', 'Company']",Gender
+"['Date', 'Customer Name', 'Dealer_Name', 'Company']",Engine
+"['Date', 'Customer Name', 'Dealer_Name', 'Company']",Transmission
+"['Dealer_No ', 'Date', 'Customer Name', 'Company']",Gender
+"['Dealer_No ', 'Date', 'Annual Income', 'Model']",Company
+"['Body Style', 'Date', 'Annual Income', 'Model']",Company
+"['Color', 'Date', 'Annual Income', 'Model']",Company
+"['Date', 'Gender', 'Annual Income', 'Model']",Company
+"['Date', 'Annual Income', 'Model', 'Engine']",Company
+"['Transmission', 'Date', 'Annual Income', 'Model']",Company
+"['Body Style', 'Annual Income', 'Dealer_Name', 'Model']",Company
+"['Color', 'Annual Income', 'Dealer_Name', 'Model']",Company
+"['Price ($)', 'Date', 'Dealer_Name', 'Model']",Body Style
+"['Price ($)', 'Date', 'Dealer_Name', 'Model']",Color
+"['Price ($)', 'Date', 'Dealer_Name', 'Model']",Engine
+"['Price ($)', 'Date', 'Dealer_Name', 'Model']",Transmission
+"['Price ($)', 'Dealer_No ', 'Date', 'Model']",Engine
+"['Price ($)', 'Dealer_No ', 'Date', 'Model']",Transmission
+"['Color', 'Dealer_No ', 'Date', 'Model']",Company
+"['Dealer_No ', 'Date', 'Gender', 'Model']",Company
+"['Color', 'Body Style', 'Date', 'Model']",Company
+"['Body Style', 'Date', 'Gender', 'Model']",Company
+"['Color', 'Date', 'Model', 'Engine']",Company
+"['Transmission', 'Color', 'Date', 'Model']",Company
+"['Date', 'Gender', 'Model', 'Engine']",Company
+"['Transmission', 'Date', 'Gender', 'Model']",Company
