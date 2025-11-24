@@ -1,2 +1,6 @@
 *line.csv
 2025-11-14_17-00-10_fds.csv
+croppedairline_sampledoveruniqueid.csv
+results/*_fds
+results/*_uccs
+*.jar

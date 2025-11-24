@@ -10,3 +10,283 @@ Select OriginCityName, DestAirportSeqID, DepDelayMinutes, ArrTimeBlk, AirTime, F
  from On_Time_On_Time_Performance_2016_1  where ArrivalDelayGroups is not null and ArrivalDelayGroups > 0 Limit 100;
 
  Select LongestAddGTime, OriginAirportSeqID, DepTimeBlk, TaxiOut, TaxiIn, FlightDate from On_Time_On_Time_Performance_2016_1 where INT(LongestAddGTime) !=  TaxiIn - TaxiOut is not null Limit 100;
+
+Select distinct UniqueCarrier from On_Time_On_Time_Performance_2016_1 where arrTime is not null limit 100;
+
+
+
+(
+    SELECT
+        Year, Quarter, Month, DayofMonth, DayOfWeek, FlightDate,
+        UniqueCarrier, AirlineID, Carrier, TailNum, FlightNum,
+        OriginAirportID, OriginAirportSeqID, OriginCityMarketID,
+        Origin, OriginCityName, OriginState, OriginStateFips,
+        OriginStateName, OriginWac,
+        DestAirportID, DestAirportSeqID, DestCityMarketID,
+        Dest, DestCityName, DestState, DestStateFips,
+        DestStateName, DestWac,
+        CRSDepTime, DepTime, DepDelay, DepDelayMinutes, DepDel15,
+        DepartureDelayGroups, DepTimeBlk, TaxiOut, TaxiIn,
+        CRSArrTime, ArrTime, ArrDelay, ArrDelayMinutes, ArrDel15,
+        ArrivalDelayGroups, ArrTimeBlk, Cancelled, CancellationCode,
+        Diverted, CRSElapsedTime, ActualElapsedTime, AirTime,
+        Flights, Distance, DistanceGroup, CarrierDelay, WeatherDelay,
+        NASDelay, SecurityDelay, LateAircraftDelay,
+        FirstDepTime, TotalAddGTime, LongestAddGTime
+    FROM On_Time_On_Time_Performance_2016_1
+    WHERE UniqueCarrier = 'AA'
+    LIMIT 1000
+)
+UNION ALL
+(
+    SELECT
+        Year, Quarter, Month, DayofMonth, DayOfWeek, FlightDate,
+        UniqueCarrier, AirlineID, Carrier, TailNum, FlightNum,
+        OriginAirportID, OriginAirportSeqID, OriginCityMarketID,
+        Origin, OriginCityName, OriginState, OriginStateFips,
+        OriginStateName, OriginWac,
+        DestAirportID, DestAirportSeqID, DestCityMarketID,
+        Dest, DestCityName, DestState, DestStateFips,
+        DestStateName, DestWac,
+        CRSDepTime, DepTime, DepDelay, DepDelayMinutes, DepDel15,
+        DepartureDelayGroups, DepTimeBlk, TaxiOut, TaxiIn,
+        CRSArrTime, ArrTime, ArrDelay, ArrDelayMinutes, ArrDel15,
+        ArrivalDelayGroups, ArrTimeBlk, Cancelled, CancellationCode,
+        Diverted, CRSElapsedTime, ActualElapsedTime, AirTime,
+        Flights, Distance, DistanceGroup, CarrierDelay, WeatherDelay,
+        NASDelay, SecurityDelay, LateAircraftDelay,
+        FirstDepTime, TotalAddGTime, LongestAddGTime
+    FROM On_Time_On_Time_Performance_2016_1
+    WHERE UniqueCarrier = 'AS'
+    LIMIT 1000
+)
+UNION ALL
+(
+    SELECT
+        Year, Quarter, Month, DayofMonth, DayOfWeek, FlightDate,
+        UniqueCarrier, AirlineID, Carrier, TailNum, FlightNum,
+        OriginAirportID, OriginAirportSeqID, OriginCityMarketID,
+        Origin, OriginCityName, OriginState, OriginStateFips,
+        OriginStateName, OriginWac,
+        DestAirportID, DestAirportSeqID, DestCityMarketID,
+        Dest, DestCityName, DestState, DestStateFips,
+        DestStateName, DestWac,
+        CRSDepTime, DepTime, DepDelay, DepDelayMinutes, DepDel15,
+        DepartureDelayGroups, DepTimeBlk, TaxiOut, TaxiIn,
+        CRSArrTime, ArrTime, ArrDelay, ArrDelayMinutes, ArrDel15,
+        ArrivalDelayGroups, ArrTimeBlk, Cancelled, CancellationCode,
+        Diverted, CRSElapsedTime, ActualElapsedTime, AirTime,
+        Flights, Distance, DistanceGroup, CarrierDelay, WeatherDelay,
+        NASDelay, SecurityDelay, LateAircraftDelay,
+        FirstDepTime, TotalAddGTime, LongestAddGTime
+    FROM On_Time_On_Time_Performance_2016_1
+    WHERE UniqueCarrier = 'B6'
+    LIMIT 1000
+)
+UNION ALL
+(
+    SELECT
+        Year, Quarter, Month, DayofMonth, DayOfWeek, FlightDate,
+        UniqueCarrier, AirlineID, Carrier, TailNum, FlightNum,
+        OriginAirportID, OriginAirportSeqID, OriginCityMarketID,
+        Origin, OriginCityName, OriginState, OriginStateFips,
+        OriginStateName, OriginWac,
+        DestAirportID, DestAirportSeqID, DestCityMarketID,
+        Dest, DestCityName, DestState, DestStateFips,
+        DestStateName, DestWac,
+        CRSDepTime, DepTime, DepDelay, DepDelayMinutes, DepDel15,
+        DepartureDelayGroups, DepTimeBlk, TaxiOut, TaxiIn,
+        CRSArrTime, ArrTime, ArrDelay, ArrDelayMinutes, ArrDel15,
+        ArrivalDelayGroups, ArrTimeBlk, Cancelled, CancellationCode,
+        Diverted, CRSElapsedTime, ActualElapsedTime, AirTime,
+        Flights, Distance, DistanceGroup, CarrierDelay, WeatherDelay,
+        NASDelay, SecurityDelay, LateAircraftDelay,
+        FirstDepTime, TotalAddGTime, LongestAddGTime
+    FROM On_Time_On_Time_Performance_2016_1
+    WHERE UniqueCarrier = 'DL'
+    LIMIT 1000
+)
+UNION ALL
+(
+    SELECT
+        Year, Quarter, Month, DayofMonth, DayOfWeek, FlightDate,
+        UniqueCarrier, AirlineID, Carrier, TailNum, FlightNum,
+        OriginAirportID, OriginAirportSeqID, OriginCityMarketID,
+        Origin, OriginCityName, OriginState, OriginStateFips,
+        OriginStateName, OriginWac,
+        DestAirportID, DestAirportSeqID, DestCityMarketID,
+        Dest, DestCityName, DestState, DestStateFips,
+        DestStateName, DestWac,
+        CRSDepTime, DepTime, DepDelay, DepDelayMinutes, DepDel15,
+        DepartureDelayGroups, DepTimeBlk, TaxiOut, TaxiIn,
+        CRSArrTime, ArrTime, ArrDelay, ArrDelayMinutes, ArrDel15,
+        ArrivalDelayGroups, ArrTimeBlk, Cancelled, CancellationCode,
+        Diverted, CRSElapsedTime, ActualElapsedTime, AirTime,
+        Flights, Distance, DistanceGroup, CarrierDelay, WeatherDelay,
+        NASDelay, SecurityDelay, LateAircraftDelay,
+        FirstDepTime, TotalAddGTime, LongestAddGTime
+    FROM On_Time_On_Time_Performance_2016_1
+    WHERE UniqueCarrier = 'F9'
+    LIMIT 1000
+)
+UNION ALL
+(
+    SELECT
+        Year, Quarter, Month, DayofMonth, DayOfWeek, FlightDate,
+        UniqueCarrier, AirlineID, Carrier, TailNum, FlightNum,
+        OriginAirportID, OriginAirportSeqID, OriginCityMarketID,
+        Origin, OriginCityName, OriginState, OriginStateFips,
+        OriginStateName, OriginWac,
+        DestAirportID, DestAirportSeqID, DestCityMarketID,
+        Dest, DestCityName, DestState, DestStateFips,
+        DestStateName, DestWac,
+        CRSDepTime, DepTime, DepDelay, DepDelayMinutes, DepDel15,
+        DepartureDelayGroups, DepTimeBlk, TaxiOut, TaxiIn,
+        CRSArrTime, ArrTime, ArrDelay, ArrDelayMinutes, ArrDel15,
+        ArrivalDelayGroups, ArrTimeBlk, Cancelled, CancellationCode,
+        Diverted, CRSElapsedTime, ActualElapsedTime, AirTime,
+        Flights, Distance, DistanceGroup, CarrierDelay, WeatherDelay,
+        NASDelay, SecurityDelay, LateAircraftDelay,
+        FirstDepTime, TotalAddGTime, LongestAddGTime
+    FROM On_Time_On_Time_Performance_2016_1
+    WHERE UniqueCarrier = 'HA'
+    LIMIT 1000
+)
+UNION ALL
+(
+    SELECT
+        Year, Quarter, Month, DayofMonth, DayOfWeek, FlightDate,
+        UniqueCarrier, AirlineID, Carrier, TailNum, FlightNum,
+        OriginAirportID, OriginAirportSeqID, OriginCityMarketID,
+        Origin, OriginCityName, OriginState, OriginStateFips,
+        OriginStateName, OriginWac,
+        DestAirportID, DestAirportSeqID, DestCityMarketID,
+        Dest, DestCityName, DestState, DestStateFips,
+        DestStateName, DestWac,
+        CRSDepTime, DepTime, DepDelay, DepDelayMinutes, DepDel15,
+        DepartureDelayGroups, DepTimeBlk, TaxiOut, TaxiIn,
+        CRSArrTime, ArrTime, ArrDelay, ArrDelayMinutes, ArrDel15,
+        ArrivalDelayGroups, ArrTimeBlk, Cancelled, CancellationCode,
+        Diverted, CRSElapsedTime, ActualElapsedTime, AirTime,
+        Flights, Distance, DistanceGroup, CarrierDelay, WeatherDelay,
+        NASDelay, SecurityDelay, LateAircraftDelay,
+        FirstDepTime, TotalAddGTime, LongestAddGTime
+    FROM On_Time_On_Time_Performance_2016_1
+    WHERE UniqueCarrier = 'NK'
+    LIMIT 1000
+)
+UNION ALL
+(
+    SELECT
+        Year, Quarter, Month, DayofMonth, DayOfWeek, FlightDate,
+        UniqueCarrier, AirlineID, Carrier, TailNum, FlightNum,
+        OriginAirportID, OriginAirportSeqID, OriginCityMarketID,
+        Origin, OriginCityName, OriginState, OriginStateFips,
+        OriginStateName, OriginWac,
+        DestAirportID, DestAirportSeqID, DestCityMarketID,
+        Dest, DestCityName, DestState, DestStateFips,
+        DestStateName, DestWac,
+        CRSDepTime, DepTime, DepDelay, DepDelayMinutes, DepDel15,
+        DepartureDelayGroups, DepTimeBlk, TaxiOut, TaxiIn,
+        CRSArrTime, ArrTime, ArrDelay, ArrDelayMinutes, ArrDel15,
+        ArrivalDelayGroups, ArrTimeBlk, Cancelled, CancellationCode,
+        Diverted, CRSElapsedTime, ActualElapsedTime, AirTime,
+        Flights, Distance, DistanceGroup, CarrierDelay, WeatherDelay,
+        NASDelay, SecurityDelay, LateAircraftDelay,
+        FirstDepTime, TotalAddGTime, LongestAddGTime
+    FROM On_Time_On_Time_Performance_2016_1
+    WHERE UniqueCarrier = 'EV'
+    LIMIT 1000
+)
+UNION ALL
+(
+    SELECT
+        Year, Quarter, Month, DayofMonth, DayOfWeek, FlightDate,
+        UniqueCarrier, AirlineID, Carrier, TailNum, FlightNum,
+        OriginAirportID, OriginAirportSeqID, OriginCityMarketID,
+        Origin, OriginCityName, OriginState, OriginStateFips,
+        OriginStateName, OriginWac,
+        DestAirportID, DestAirportSeqID, DestCityMarketID,
+        Dest, DestCityName, DestState, DestStateFips,
+        DestStateName, DestWac,
+        CRSDepTime, DepTime, DepDelay, DepDelayMinutes, DepDel15,
+        DepartureDelayGroups, DepTimeBlk, TaxiOut, TaxiIn,
+        CRSArrTime, ArrTime, ArrDelay, ArrDelayMinutes, ArrDel15,
+        ArrivalDelayGroups, ArrTimeBlk, Cancelled, CancellationCode,
+        Diverted, CRSElapsedTime, ActualElapsedTime, AirTime,
+        Flights, Distance, DistanceGroup, CarrierDelay, WeatherDelay,
+        NASDelay, SecurityDelay, LateAircraftDelay,
+        FirstDepTime, TotalAddGTime, LongestAddGTime
+    FROM On_Time_On_Time_Performance_2016_1
+    WHERE UniqueCarrier = 'OO'
+    LIMIT 1000
+)
+UNION ALL
+(
+    SELECT
+        Year, Quarter, Month, DayofMonth, DayOfWeek, FlightDate,
+        UniqueCarrier, AirlineID, Carrier, TailNum, FlightNum,
+        OriginAirportID, OriginAirportSeqID, OriginCityMarketID,
+        Origin, OriginCityName, OriginState, OriginStateFips,
+        OriginStateName, OriginWac,
+        DestAirportID, DestAirportSeqID, DestCityMarketID,
+        Dest, DestCityName, DestState, DestStateFips,
+        DestStateName, DestWac,
+        CRSDepTime, DepTime, DepDelay, DepDelayMinutes, DepDel15,
+        DepartureDelayGroups, DepTimeBlk, TaxiOut, TaxiIn,
+        CRSArrTime, ArrTime, ArrDelay, ArrDelayMinutes, ArrDel15,
+        ArrivalDelayGroups, ArrTimeBlk, Cancelled, CancellationCode,
+        Diverted, CRSElapsedTime, ActualElapsedTime, AirTime,
+        Flights, Distance, DistanceGroup, CarrierDelay, WeatherDelay,
+        NASDelay, SecurityDelay, LateAircraftDelay,
+        FirstDepTime, TotalAddGTime, LongestAddGTime
+    FROM On_Time_On_Time_Performance_2016_1
+    WHERE UniqueCarrier = 'UA'
+    LIMIT 1000
+)
+UNION ALL
+(
+    SELECT
+        Year, Quarter, Month, DayofMonth, DayOfWeek, FlightDate,
+        UniqueCarrier, AirlineID, Carrier, TailNum, FlightNum,
+        OriginAirportID, OriginAirportSeqID, OriginCityMarketID,
+        Origin, OriginCityName, OriginState, OriginStateFips,
+        OriginStateName, OriginWac,
+        DestAirportID, DestAirportSeqID, DestCityMarketID,
+        Dest, DestCityName, DestState, DestStateFips,
+        DestStateName, DestWac,
+        CRSDepTime, DepTime, DepDelay, DepDelayMinutes, DepDel15,
+        DepartureDelayGroups, DepTimeBlk, TaxiOut, TaxiIn,
+        CRSArrTime, ArrTime, ArrDelay, ArrDelayMinutes, ArrDel15,
+        ArrivalDelayGroups, ArrTimeBlk, Cancelled, CancellationCode,
+        Diverted, CRSElapsedTime, ActualElapsedTime, AirTime,
+        Flights, Distance, DistanceGroup, CarrierDelay, WeatherDelay,
+        NASDelay, SecurityDelay, LateAircraftDelay,
+        FirstDepTime, TotalAddGTime, LongestAddGTime
+    FROM On_Time_On_Time_Performance_2016_1
+    WHERE UniqueCarrier = 'VX'
+    LIMIT 1000
+)
+UNION ALL
+(
+    SELECT
+        Year, Quarter, Month, DayofMonth, DayOfWeek, FlightDate,
+        UniqueCarrier, AirlineID, Carrier, TailNum, FlightNum,
+        OriginAirportID, OriginAirportSeqID, OriginCityMarketID,
+        Origin, OriginCityName, OriginState, OriginStateFips,
+        OriginStateName, OriginWac,
+        DestAirportID, DestAirportSeqID, DestCityMarketID,
+        Dest, DestCityName, DestState, DestStateFips,
+        DestStateName, DestWac,
+        CRSDepTime, DepTime, DepDelay, DepDelayMinutes, DepDel15,
+        DepartureDelayGroups, DepTimeBlk, TaxiOut, TaxiIn,
+        CRSArrTime, ArrTime, ArrDelay, ArrDelayMinutes, ArrDel15,
+        ArrivalDelayGroups, ArrTimeBlk, Cancelled, CancellationCode,
+        Diverted, CRSElapsedTime, ActualElapsedTime, AirTime,
+        Flights, Distance, DistanceGroup, CarrierDelay, WeatherDelay,
+        NASDelay, SecurityDelay, LateAircraftDelay,
+        FirstDepTime, TotalAddGTime, LongestAddGTime
+    FROM On_Time_On_Time_Performance_2016_1
+    WHERE UniqueCarrier = 'WN'
+    LIMIT 1000
+);
