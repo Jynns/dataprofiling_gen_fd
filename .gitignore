@@ -3,4 +3,6 @@
 croppedairline_sampledoveruniqueid.csv
 results/*_fds
 results/*_uccs
+results/results_algo
 *.jar
+cars_relevant_fds
