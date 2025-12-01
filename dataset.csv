@@ -183,29 +183,31 @@ id,lhs,rhs,tablename,is_approx,null_eq_nul,is_genuine
 164,"city_latitude, airport_name",city_position,mondialjoin.csv,False,True,False
 165,"city_population, city_name",city_position,mondialjoin.csv,False,True,False
 166,"city_latitude, city_name",city_position,mondialjoin.csv,False,True,False
-167,country_capital_name,country_population,mondialjoin.csv,False,True,False
-168,"city_longitude, airport_name",country_population,mondialjoin.csv,False,True,False
-169,"city_population, airport_name",country_population,mondialjoin.csv,False,True,False
-170,"city_latitude, airport_name",country_population,mondialjoin.csv,False,True,False
-171,"city_province, airport_name",country_population,mondialjoin.csv,False,True,False
-172,"airport_name, airport_province",country_population,mondialjoin.csv,False,True,False
-173,"airport_name, airport_elevation",country_population,mondialjoin.csv,False,True,False
-174,"airport_latitude, language_name",language_percentage,mondialjoin.csv,False,True,False
-175,"airport_longitude, language_name",language_percentage,mondialjoin.csv,False,True,False
-176,"language_name, country_population",language_percentage,mondialjoin.csv,False,True,False
-177,"language_name, country_area",language_percentage,mondialjoin.csv,False,True,False
-178,"city_longitude, airport_name, language_name",language_percentage,mondialjoin.csv,False,True,False
-179,"city_population, airport_name, language_name",language_percentage,mondialjoin.csv,False,True,False
-180,"city_latitude, airport_name, language_name",language_percentage,mondialjoin.csv,False,True,False
-181,"city_longitude, airport_name",airport_iata_code,mondialjoin.csv,False,True,False
-182,"city_population, airport_name",airport_iata_code,mondialjoin.csv,False,True,False
-183,"city_latitude, airport_name",airport_iata_code,mondialjoin.csv,False,True,False
-184,"city_province, airport_name",airport_iata_code,mondialjoin.csv,False,True,False
-185,"airport_name, airport_province",airport_iata_code,mondialjoin.csv,False,True,False
-186,"airport_name, airport_elevation",airport_iata_code,mondialjoin.csv,False,True,False
-187,"city_elevation, airport_name",airport_iata_code,mondialjoin.csv,False,True,False
-188,"airport_name, language_percentage, city_name",airport_iata_code,mondialjoin.csv,False,True,False
-189,airport_latitude,airport_iata_code,mondialjoin.csv,False,True,False
-190,airport_longitude,airport_iata_code,mondialjoin.csv,False,True,False
-191,airport_latitude,airport_longitude,mondialjoin.csv,False,True,False
-192,country_population,country_name,mondialjoin.csv,False,True,False
+167,airport_latitude,country_population,mondialjoin.csv,False,True,False
+168,airport_longitude,country_population,mondialjoin.csv,False,True,False
+169,country_capital_name,country_population,mondialjoin.csv,False,True,False
+170,"city_longitude, airport_name",country_population,mondialjoin.csv,False,True,False
+171,"city_population, airport_name",country_population,mondialjoin.csv,False,True,False
+172,"city_latitude, airport_name",country_population,mondialjoin.csv,False,True,False
+173,"city_province, airport_name",country_population,mondialjoin.csv,False,True,False
+174,"airport_name, airport_province",country_population,mondialjoin.csv,False,True,False
+175,"airport_name, airport_elevation",country_population,mondialjoin.csv,False,True,False
+176,"airport_latitude, language_name",language_percentage,mondialjoin.csv,False,True,False
+177,"airport_longitude, language_name",language_percentage,mondialjoin.csv,False,True,False
+178,"language_name, country_population",language_percentage,mondialjoin.csv,False,True,False
+179,"language_name, country_area",language_percentage,mondialjoin.csv,False,True,False
+180,"city_longitude, airport_name, language_name",language_percentage,mondialjoin.csv,False,True,False
+181,"city_population, airport_name, language_name",language_percentage,mondialjoin.csv,False,True,False
+182,"city_latitude, airport_name, language_name",language_percentage,mondialjoin.csv,False,True,False
+183,airport_latitude,airport_iata_code,mondialjoin.csv,False,True,False
+184,airport_longitude,airport_iata_code,mondialjoin.csv,False,True,False
+185,"city_longitude, airport_name",airport_iata_code,mondialjoin.csv,False,True,False
+186,"city_population, airport_name",airport_iata_code,mondialjoin.csv,False,True,False
+187,"city_latitude, airport_name",airport_iata_code,mondialjoin.csv,False,True,False
+188,"city_province, airport_name",airport_iata_code,mondialjoin.csv,False,True,False
+189,"airport_name, airport_province",airport_iata_code,mondialjoin.csv,False,True,False
+190,"airport_name, airport_elevation",airport_iata_code,mondialjoin.csv,False,True,False
+191,"city_elevation, airport_name",airport_iata_code,mondialjoin.csv,False,True,False
+192,"airport_name, language_percentage, city_name",airport_iata_code,mondialjoin.csv,False,True,False
+193,airport_latitude,airport_longitude,mondialjoin.csv,False,True,False
+194,country_population,country_name,mondialjoin.csv,False,True,False
