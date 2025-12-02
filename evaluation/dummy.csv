@@ -1,0 +1,11 @@
+LHS,RHS,ground_truth,prediction
+City,Zip,1,1
+Age,Salary,0,0
+Engine,Transmission,0,1
+Disease,Examiner,1,1
+Country,Currency,1,1
+PatientID,Address,1,1
+HairColor,Income,0,0
+Education,JobTitle,0,1
+Gender,Pregnant,1,1
+Browser,AdClick,0,0
