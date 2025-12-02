@@ -23,7 +23,7 @@ def evaluate_fd_classification(csv_path, separator, escape, quote):
         quotechar=quote
     )
 
-    y_true = df["ground_truth"]
+    y_true = df["is_genuine"]
     y_pred = df["prediction"]
 
     metrics = {
