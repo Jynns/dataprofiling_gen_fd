@@ -6,3 +6,6 @@ results/*_uccs
 results/results_algo
 *.jar
 cars_relevant_fds
+NorthwindOrdersCustomersEmployees.csv
+NW_OCE.csv
+NW_OCEP.csv

@@ -70,6 +70,8 @@ def find_fds_for_rhs(target_rhs, data,sorted=False, lhs_validator = lambda x: Tr
 
 def fuzzy_filter(data, exclude_list = [], include_list = []):
     """method to filter out based on substrings on lhs"""
+    assert isinstance(exclude_list, list), "exclude_list must be a list"
+    assert isinstance(include_list, list), "include_list must be a list"
     excludes_promise = lambda lhs: (not exclude_list) or (not any([any([ex.lower() in label.lower() for ex in exclude_list]) for label in lhs]))
     include_promise = lambda lhs: (not include_list) or (all([any(inc.lower() in label.lower() for label in lhs) for inc in include_list])) 
     filtered = [t for t in data if excludes_promise(t[0]) and include_promise(t[0])]
