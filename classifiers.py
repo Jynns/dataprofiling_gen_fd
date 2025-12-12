@@ -93,9 +93,9 @@ class RandomClassifier(Classifier):
 
 
 
-clf = RandomClassifier()
-clf.fit(r"C:\Users\Andy\Data Profiling\EDA\dataprofiling_gen_fd\dataset.csv")
+# clf = RandomClassifier()
+# clf.fit(r"C:\Users\Andy\Data Profiling\EDA\dataprofiling_gen_fd\dataset.csv")
 
-clf.predict(
-    csv_path=r"C:\Users\Andy\Data Profiling\EDA\dataprofiling_gen_fd\dataset.csv",
-)
+# clf.predict(
+#     csv_path=r"C:\Users\Andy\Data Profiling\EDA\dataprofiling_gen_fd\dataset.csv",
+# )
