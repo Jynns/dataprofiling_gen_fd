@@ -9,3 +9,8 @@ cars_relevant_fds
 NorthwindOrdersCustomersEmployees.csv
 NW_OCE.csv
 NW_OCEP.csv
+dataprofilingenv/*
+data/training_data.csv
+data/*
+data_archive/*
+*.jar
