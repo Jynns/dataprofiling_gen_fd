@@ -30,7 +30,7 @@ Binary label indicating rule validity:
 
 Install the required Python libraries:
 
-pip install pandas numpy scikit-learn matplotlib sentence-transformers python-Levenshtein
+```pip install pandas numpy scikit-learn matplotlib sentence-transformers python-Levenshtein```
 
 ### Dependency Overview
 - pandas / numpy — data manipulation and numerical computation
@@ -45,11 +45,11 @@ Ollama is required for local model inference.
 
 Install using the official installer:
 
-curl -fsSL https://ollama.com/install.sh | sh
+```curl -fsSL https://ollama.com/install.sh | sh```
 
 Verify the installation:
 
-ollama --version
+```ollama --version```
 
 ## Git LFS (Mandatory)
 
@@ -58,14 +58,14 @@ If Git LFS is not installed or initialized, these files will appear as small tex
 
 ### Install Git LFS
 
-git lfs version || sudo apt-get update && sudo apt-get install -y git-lfs
-git lfs install
+```git lfs version || sudo apt-get update && sudo apt-get install -y git-lfs```
+```git lfs install```
 
 ### Download LFS Files
 
 After cloning the repository, fetch the actual large files:
 
-git lfs pull
+```git lfs pull```
 
 This step is required before using any ZIP or large data files.
 
