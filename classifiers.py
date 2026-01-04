@@ -91,6 +91,42 @@ class RandomClassifier(Classifier):
 
         return df
 
+class LlamaModel(Classifier):
+    """
+    A simple classifier that uses llama3.1:8b
+    to classify genuineness
+    """
+
+    def __init__(self):
+        super().__init__()
+
+    def predict(self, csv_path, output_path=None):
+        """
+        Create prediction column on new CSV.
+        CSV must contain: LHS, RHS.
+        """
+
+        df = pd.read_csv(csv_path)
+
+        # Check LHS/RHS presence
+        if "lhs" not in df.columns or "rhs" not in df.columns:
+            raise ValueError("Prediction CSV must contain 'LHS' and 'RHS' columns.")
+
+        
+
+        df["prediction"] = predictions
+
+        if output_path is None:
+             output_path = csv_path.replace(".csv", "_predicted.csv")
+        else:
+            csv_stem = Path(csv_path).stem
+            output_path = Path(output_path) / f"{csv_stem}_predicted.csv"        
+
+        df.to_csv(output_path, index=False)
+
+        print(f"Predictions written to: {output_path}")
+
+        return df
 
 
 # clf = RandomClassifier()

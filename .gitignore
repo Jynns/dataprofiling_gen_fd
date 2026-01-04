@@ -14,3 +14,4 @@ data/training_data.csv
 data/*
 data_archive/*
 *.jar
+datagen/*

@@ -5,4 +5,6 @@ training_data.csv documentation
 
 
 # Necessary libraries
-``pip install pandas numpy scikit-learn matplotlib sentence-transformers python-Levenshtein```
+``pip install pandas numpy scikit-learn matplotlib sentence-transformers python-Levenshtein``
+installing ollama
+``curl -fsSL https://ollama.com/install.sh | sh``
