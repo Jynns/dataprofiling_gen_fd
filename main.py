@@ -1,7 +1,8 @@
 import argparse
+from datetime import datetime
 from pathlib import Path
-from data_transformer import IdentityTransformer
-from classifiers import RandomClassifier
+from data_transformer import IdentityTransformer, LLMDescTransformer
+from classifiers import LLMClassifier, RandomClassifier
 from evaluation.evaluate_fd import evaluate_fd_classification
 import pandas as pd
 from sklearn.model_selection import train_test_split
@@ -84,11 +85,13 @@ if __name__ == "__main__":
 
     args = parser.parse_args()
 
-    #df = pd.read_csv(args.data, sep=args.separator, escapechar=args.escape, quotechar=args.quote)
-
-    identityTransformer = IdentityTransformer()
-
-    transformed_df = identityTransformer.transform(args.data, args.metadata)
+    # Determine transformer based on classifier and transform all data upfront
+    if args.classifier == "llm" and args.metadata:
+        transformer = LLMDescTransformer()
+        transformed_df = transformer.transform(args.data, args.metadata) #### Added two more description columns
+    else:
+        identityTransformer = IdentityTransformer()
+        transformed_df = identityTransformer.transform(args.data, args.metadata)
     
     train_df, test_df = train_test_split(
         transformed_df,
@@ -100,8 +103,10 @@ if __name__ == "__main__":
     out_dir = Path(args.outputdir)
     out_dir.mkdir(parents=True, exist_ok=True)
 
-    train_path = out_dir / "train.csv"
-    test_path = out_dir / "test.csv"
+    current_timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+
+    train_path = out_dir / f"train_{current_timestamp}.csv"
+    test_path = out_dir / f"test_{current_timestamp}.csv"
     train_df.to_csv(train_path, index=False)
     test_df.to_csv(test_path, index=False)
 
@@ -111,11 +116,13 @@ if __name__ == "__main__":
     if args.classifier == "random":       
         clf = RandomClassifier()
         clf.fit(train_path)
-        pred_path = out_dir / f"{test_path.stem}_predicted.csv"
         clf.predict(csv_path=test_path, output_path=out_dir)
 
     if args.classifier == "llm":
-        raise NotImplementedError("LLM classifier not implemented yet.")       
+        clf = LLMClassifier()
+        clf.predict(csv_path=test_path, output_path=out_dir)
+
+    pred_path = out_dir / f"{test_path.stem}_predicted.csv"           
 
 
     ##### Evaluation #####

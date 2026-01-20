@@ -1,0 +1,58 @@
+# LLM Classifier # 
+
+
+##### Ollama Llama3 8B  Without Descriptions #####
+========== FUNCTIONAL DEPENDENCY GENUINENESS EVALUATION ==========
+
+Precision: 0.4375
+Recall:    0.6562
+F1 Score:  0.5250
+
+
+############ Confusion Matrix ############
+
+[[45, 27], [11, 21]]
+
+#### [[TN, FP],  [FN, TP]]
+
+
+##### Ollama Llama3 8B With Descriptions #####
+========== FUNCTIONAL DEPENDENCY GENUINENESS EVALUATION ==========
+
+Precision: 0.4085
+Recall:    0.7632
+F1 Score:  0.5321
+
+
+############ Confusion Matrix ############
+
+[[34, 42], [9, 29]]
+
+
+
+##### Ollama Llama3 8B With Genuineness definition #####
+========== FUNCTIONAL DEPENDENCY GENUINENESS EVALUATION ==========
+
+Precision: 0.3636
+Recall:    0.8421
+F1 Score:  0.5079
+
+
+############ Confusion Matrix ############
+
+[[20, 56], [6, 32]]
+
+
+
+
+# Random Classifier # 
+========== FUNCTIONAL DEPENDENCY GENUINENESS EVALUATION ==========
+
+Precision: 0.1667
+Recall:    0.1562
+F1 Score:  0.1613
+
+
+############ Confusion Matrix ############
+
+[[47, 25], [27, 5]]

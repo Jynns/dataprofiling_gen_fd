@@ -27,18 +27,18 @@ def evaluate_fd_classification(csv_path, separator, escape, quote):
     y_pred = df["prediction"]
 
     metrics = {
-        "accuracy": accuracy_score(y_true, y_pred),
+        # "accuracy": accuracy_score(y_true, y_pred),
         "precision": precision_score(y_true, y_pred, zero_division=0),
         "recall": recall_score(y_true, y_pred, zero_division=0),
         "f1_score": f1_score(y_true, y_pred, zero_division=0),
         "confusion_matrix": confusion_matrix(y_true, y_pred).tolist(),
-        "classification_report": classification_report(
-            y_true, y_pred, zero_division=0
-        )
+        # "classification_report": classification_report(
+        #     y_true, y_pred, zero_division=0
+        # )
     }
 
     print("\n========== FUNCTIONAL DEPENDENCY GENUINENESS EVALUATION ==========\n")
-    print(f"Accuracy:  {metrics['accuracy']:.4f}")
+    # print(f"Accuracy:  {metrics['accuracy']:.4f}")
     print(f"Precision: {metrics['precision']:.4f}")
     print(f"Recall:    {metrics['recall']:.4f}")
     print(f"F1 Score:  {metrics['f1_score']:.4f}\n")
@@ -46,8 +46,8 @@ def evaluate_fd_classification(csv_path, separator, escape, quote):
     print("\n############ Confusion Matrix ############\n")
     print(metrics["confusion_matrix"])
     
-    print("\n############ Classification Report ############\n")
-    print(metrics["classification_report"])
+    # print("\n############ Classification Report ############\n")
+    # print(metrics["classification_report"])
 
     return metrics
 

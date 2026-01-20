@@ -3,6 +3,8 @@ import pandas as pd
 import numpy as np
 from abc import ABC, abstractmethod
 
+from llm_utils import call_ollama, fd_classify_prompt, call_perplexity
+
 class Classifier(ABC):
     """Base classifier"""
 
@@ -91,7 +93,7 @@ class RandomClassifier(Classifier):
 
         return df
 
-class LlamaModel(Classifier):
+class LLMClassifier(Classifier):
     """
     A simple classifier that uses llama3.1:8b
     to classify genuineness
@@ -99,6 +101,9 @@ class LlamaModel(Classifier):
 
     def __init__(self):
         super().__init__()
+
+    def fit(self, csv_path):
+        print("LLM Classifier does not require training. Fit step skipped.")
 
     def predict(self, csv_path, output_path=None):
         """
@@ -111,10 +116,32 @@ class LlamaModel(Classifier):
         # Check LHS/RHS presence
         if "lhs" not in df.columns or "rhs" not in df.columns:
             raise ValueError("Prediction CSV must contain 'LHS' and 'RHS' columns.")
-
         
+        
+        for index, row in df.iterrows():
+            lhs = row['lhs']
+            rhs = row['rhs']
 
-        df["prediction"] = predictions
+            tablename = None 
+            lhs_desc = None
+            rhs_desc = None
+
+            if 'tablename' in row and pd.notna(row['tablename']):
+                tablename = row['tablename']        
+
+            if 'description_lhs' in row and pd.notna(row['description_lhs']):
+                lhs_desc = row['description_lhs']
+            
+            if 'description_rhs' in row and pd.notna(row['description_rhs']):
+                rhs_desc = row['description_rhs']
+            
+            prompt = fd_classify_prompt(lhs, rhs, tablename, lhs_desc, rhs_desc)
+
+            print(prompt)
+            response = call_ollama(prompt)
+
+            prediction = 1 if '1' in response else 0
+            df.at[index, "prediction"] = prediction
 
         if output_path is None:
              output_path = csv_path.replace(".csv", "_predicted.csv")
@@ -124,7 +151,7 @@ class LlamaModel(Classifier):
 
         df.to_csv(output_path, index=False)
 
-        print(f"Predictions written to: {output_path}")
+        print(f"Predictions written to: {output_path}") 
 
         return df
 
@@ -135,3 +162,10 @@ class LlamaModel(Classifier):
 # clf.predict(
 #     csv_path=r"C:\Users\Andy\Data Profiling\EDA\dataprofiling_gen_fd\dataset.csv",
 # )
+
+
+
+# prompt = fd_classify_prompt("EmployeeID", "EmployeeFullName")
+# response = call_ollama(prompt)
+
+# print("LLM Response:", response)

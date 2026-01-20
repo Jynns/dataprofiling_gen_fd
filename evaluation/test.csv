@@ -1,44 +1,105 @@
 id,lhs,rhs,tablename,is_approx,null_eq_nul,is_genuine
-81,"DestAirportID, DistanceGroup",OriginStateName,croppedairline.csv,True,True,False
-173,"city_province, airport_name",country_population,mondialjoin.csv,False,True,False
-71,"DestAirportID, ArrTimeBlk",OriginStateName,croppedairline.csv,True,True,False
-78,"DestAirportSeqID, DepTimeBlk",OriginStateName,croppedairline.csv,True,True,False
-72,"DestAirportID, TaxiIn",OriginStateName,croppedairline.csv,True,True,False
-156,"city_longitude, city_name",city_position,mondialjoin.csv,False,True,False
-123,AirTime,DepartureDelayGroups,croppedairline.csv,True,True,False
-162,airport_latitude,city_position,mondialjoin.csv,False,True,False
-187,"city_latitude, airport_name",airport_iata_code,mondialjoin.csv,False,True,False
-14,DepDelay,DepartureDelayGroups,croppedairline.csv,True,True,True
-170,"city_longitude, airport_name",country_population,mondialjoin.csv,False,True,False
-65,"DestAirportID, ArrDelay",OriginStateName,croppedairline.csv,True,True,False
-6,OriginAirportSeqID,OriginStateName,croppedairline.csv,True,True,True
-24,"DepTimeBlk, FlightDate",DepDel15,croppedairline.csv,True,True,False
-117,Distance,OriginStateFips,croppedairline.csv,True,True,False
-145,ArrivalDelayGroups,Cancelled,croppedairline.csv,True,True,False
-194,country_population,country_name,mondialjoin.csv,False,True,False
-8,OriginCityName,OriginStateName,croppedairline.csv,True,True,True
-46,"TaxiOut, FlightDate",OriginStateName,croppedairline.csv,True,True,False
-154,airport_longitude,city_position,mondialjoin.csv,False,True,False
-141,DepDelayMinutes,Cancelled,croppedairline.csv,True,True,False
-40,"DepTimeBlk, DayofMonth",OriginStateName,croppedairline.csv,True,True,False
-54,"DayofMonth, ArrTimeBlk",OriginStateName,croppedairline.csv,True,True,False
-67,"DestAirportID, FlightDate",OriginStateName,croppedairline.csv,True,True,False
-139,DepTime,Cancelled,croppedairline.csv,True,True,False
-169,country_capital_name,country_population,mondialjoin.csv,False,True,False
-94,"DestCityName, DepDelay",OriginStateName,croppedairline.csv,True,True,False
-93,"DestCityName, FlightDate",OriginStateName,croppedairline.csv,True,True,False
-167,airport_latitude,country_population,mondialjoin.csv,False,True,False
+196,CustomerID,cust_ContactName,northwind.csv,False,True,True
+464,district_id,A8,financial.csv,False,True,True
+258,ord_ShipAddress,cust_ContactName,northwind.csv,False,True,False
+261,ord_ShipAddress,cust_PostalCode,northwind.csv,False,True,False
+410,disp_id,A7,financial.csv,False,True,True
+111,DepTime,OriginStateFips,croppedairline.csv,True,True,False
+392,order_id,A8,financial.csv,False,True,True
+23,"DepTimeBlk, DayofMonth",DepDel15,croppedairline.csv,True,True,False
+21,"TaxiIn, FlightDate",DepDel15,croppedairline.csv,True,True,False
+57,"DepTimeBlk, ArrTimeBlk",OriginStateName,croppedairline.csv,True,True,False
+266,cust_CompanyName,cust_City,northwind.csv,False,True,False
+73,"DestAirportSeqID, ArrDelay",OriginStateName,croppedairline.csv,True,True,False
+226,EmployeeID,emp_Region,northwind.csv,False,True,True
+409,disp_id,A6,financial.csv,False,True,True
+349,emp_PostalCode,emp_Country,northwind.csv,False,True,False
+413,disp_id,A8,financial.csv,False,True,True
+282,emp_LastName,emp_BirthDate,northwind.csv,False,True,False
+29,CRSArrTime,OriginStateName,croppedairline.csv,True,True,False
+0,ArrDelay,ArrDel15,croppedairline.csv,True,True,True
 68,"DestAirportID, DepDelay",OriginStateName,croppedairline.csv,True,True,False
-146,ArrTime,Cancelled,croppedairline.csv,True,True,False
-143,TaxiIn,Cancelled,croppedairline.csv,True,True,False
-4,DepartureDelayGroups,DepDel15,croppedairline.csv,True,True,True
-62,"DepDelay, TaxiIn",OriginStateName,croppedairline.csv,True,True,False
-104,"DestCityMarketID, DepDelay",OriginStateName,croppedairline.csv,True,True,False
-48,"DepDelay, TaxiOut",OriginStateName,croppedairline.csv,True,True,False
-182,"city_latitude, airport_name, language_name",language_percentage,mondialjoin.csv,False,True,False
-51,"DepTimeBlk, TaxiOut",OriginStateName,croppedairline.csv,True,True,False
-110,ArrTime,OriginStateFips,croppedairline.csv,True,True,False
-74,"DestAirportSeqID, FlightDate",OriginStateName,croppedairline.csv,True,True,False
-126,CRSDepTime,DepartureDelayGroups,croppedairline.csv,True,True,False
-0,DepTime,ArrDel15,croppedairline.csv,True,True,False
-115,AirTime,OriginStateFips,croppedairline.csv,True,True,False
+385,order_id,A14,financial.csv,False,True,True
+339,emp_PostalCode,emp_BirthDate,northwind.csv,False,True,False
+369,emp_City,emp_Country,northwind.csv,False,True,False
+337,emp_PostalCode,emp_LastName,northwind.csv,False,True,False
+13,CRSArrTime,DepDel15,croppedairline.csv,True,True,False
+175,"airport_name, airport_elevation",country_population,mondialjoin.csv,False,True,False
+427,loan_id,account_id,financial.csv,False,True,True
+119,ArrTime,DepartureDelayGroups,croppedairline.csv,True,True,False
+235,OrderID,emp_HireDate,northwind.csv,False,True,True
+419,client_id,A4,financial.csv,False,True,True
+397,disp_id,account_date,financial.csv,False,True,True
+422,account_id,account_date,financial.csv,False,True,True
+3,ActualElapsedTime,ArrDel15,croppedairline.csv,True,True,False
+390,order_id,A9,financial.csv,False,True,True
+97,"DestCityName, ArrTimeBlk",OriginStateName,croppedairline.csv,True,True,False
+118,DepTime,DepartureDelayGroups,croppedairline.csv,True,True,False
+185,"city_longitude, airport_name",airport_iata_code,mondialjoin.csv,False,True,False
+76,"DestAirportSeqID, DepDelay",OriginStateName,croppedairline.csv,True,True,False
+271,prd_ProductName,prd_QuantityPerUnit,northwind.csv,False,True,False
+44,"DepDelay, ArrDelay",OriginStateName,croppedairline.csv,True,True,False
+220,EmployeeID,emp_Extension,northwind.csv,False,True,True
+58,"TaxiIn, ArrDelay",OriginStateName,croppedairline.csv,True,True,False
+471,account_to,bank_to,financial.csv,False,True,False
+466,order_id,loan_amount,financial.csv,False,True,False
+429,loan_id,payments,financial.csv,False,True,True
+224,EmployeeID,emp_TitleOfCourtesy,northwind.csv,False,True,True
+137,"DepDelay, DayofMonth",DepTimeBlk,croppedairline.csv,True,True,False
+103,"DestCityMarketID, DayofMonth",OriginStateName,croppedairline.csv,True,True,False
+276,prd_ProductName,prd_CategoryID,northwind.csv,False,True,False
+167,airport_latitude,country_population,mondialjoin.csv,False,True,False
+388,order_id,A7,financial.csv,False,True,True
+139,DepTime,Cancelled,croppedairline.csv,True,True,False
+52,"ArrDelay, ArrTimeBlk",OriginStateName,croppedairline.csv,True,True,False
+352,emp_HomePhone,emp_FirstName,northwind.csv,False,True,False
+234,OrderID,emp_Extension,northwind.csv,False,True,True
+108,FlightNum,OriginStateFips,croppedairline.csv,True,True,False
+445,loan_id,A9,financial.csv,False,True,True
+229,OrderID,emp_FirstName,northwind.csv,False,True,True
+289,emp_LastName,emp_Title,northwind.csv,False,True,False
+332,emp_Address,emp_TitleOfCourtesy,northwind.csv,False,True,False
+138,"DepDelay, FlightDate",DepTimeBlk,croppedairline.csv,True,True,False
+455,district_id,A13,financial.csv,False,True,True
+149,"city_latitude, city_longitude",city_position,mondialjoin.csv,False,True,True
+313,emp_BirthDate,emp_HomePhone,northwind.csv,False,True,False
+136,"DepDelay, Distance",DepTimeBlk,croppedairline.csv,True,True,False
+356,emp_HomePhone,emp_Extension,northwind.csv,False,True,False
+158,"city_province, city_longitude",city_position,mondialjoin.csv,False,True,False
+160,"city_longitude, airport_elevation",city_position,mondialjoin.csv,False,True,False
+91,"DestCityName, ArrDelay",OriginStateName,croppedairline.csv,True,True,False
+280,emp_LastName,EmployeeID,northwind.csv,False,True,False
+211,ProductID,prd_CategoryID,northwind.csv,False,True,True
+140,DepDelay,Cancelled,croppedairline.csv,True,True,False
+20,"TaxiIn, DayofMonth",DepDel15,croppedairline.csv,True,True,False
+316,emp_BirthDate,emp_City,northwind.csv,False,True,False
+444,loan_id,A7,financial.csv,False,True,True
+214,EmployeeID,emp_LastName,northwind.csv,False,True,True
+273,prd_ProductName,prd_UnitsInStock,northwind.csv,False,True,False
+376,order_id,district_id,financial.csv,False,True,True
+77,"DestAirportSeqID, TaxiOut",OriginStateName,croppedairline.csv,True,True,False
+30,ArrTime,OriginStateName,croppedairline.csv,True,True,False
+16,CRSDepTime,DepDel15,croppedairline.csv,True,True,False
+24,"DepTimeBlk, FlightDate",DepDel15,croppedairline.csv,True,True,False
+106,"DestCityMarketID, DepTimeBlk",OriginStateName,croppedairline.csv,True,True,False
+306,emp_FirstName,emp_Region,northwind.csv,False,True,False
+192,"airport_name, language_percentage, city_name",airport_iata_code,mondialjoin.csv,False,True,False
+147,TaxiOut,Cancelled,croppedairline.csv,True,True,False
+301,emp_FirstName,emp_HireDate,northwind.csv,False,True,False
+88,"Dest, DepTimeBlk",OriginStateName,croppedairline.csv,True,True,False
+355,emp_HomePhone,emp_PostalCode,northwind.csv,False,True,False
+350,emp_HomePhone,EmployeeID,northwind.csv,False,True,False
+450,district_id,A2,financial.csv,False,True,True
+72,"DestAirportID, TaxiIn",OriginStateName,croppedairline.csv,True,True,False
+125,CRSElapsedTime,DepartureDelayGroups,croppedairline.csv,True,True,False
+239,OrderID,emp_ReportsTo,northwind.csv,False,True,True
+454,district_id,A16,financial.csv,False,True,True
+268,cust_ContactName,cust_Country,northwind.csv,False,True,False
+494,account_id,duration,financial.csv,False,True,False
+26,"DepTimeBlk, TaxiIn",DepDel15,croppedairline.csv,True,True,False
+469,order_id,duration,financial.csv,False,True,False
+491,account_id,loan_amount,financial.csv,False,True,False
+360,emp_HomePhone,emp_TitleOfCourtesy,northwind.csv,False,True,False
+251,ord_ShipName,cust_PostalCode,northwind.csv,False,True,False
+1,ArrDelayMinutes,ArrDel15,croppedairline.csv,True,True,True
+340,emp_PostalCode,emp_Address,northwind.csv,False,True,False

@@ -1,0 +1,115 @@
+id,lhs,rhs,tablename,is_approx,null_eq_nul,is_genuine,description_lhs,description_rhs,prediction
+518,bioID,hsCountry,women_basketball.csv,False,True,True,{'bioID': 'Unique identifier for a player'},"{'hsCountry': ""Country where player's high school is located""}",1.0
+361,emp_HomePhone,emp_ReportsTo,northwind.csv,False,True,False,,,1.0
+77,"DestAirportSeqID, TaxiOut",OriginStateName,croppedairline.csv,True,True,False,"{'DestAirportSeqID': 'Sequential identifier for the destination airport', 'TaxiOut': 'Time in minutes from gate departure to takeoff'}",{'OriginStateName': 'Full state name of the origin'},1.0
+450,district_id,A2,financial.csv,False,True,True,"{'district_id': ""Unique identifier for the client's district""}","{'A2': ""Name of the district/region (e.g., 'Hl.m. Praha', 'Tabor')""}",1.0
+494,account_id,duration,financial.csv,False,True,False,{'account_id': 'Unique identifier for the bank account'},{'duration': 'Loan duration in months'},1.0
+279,prd_QuantityPerUnit,prd_Discontinued,northwind.csv,False,True,False,,,0.0
+123,AirTime,DepartureDelayGroups,croppedairline.csv,True,True,False,{'AirTime': 'Time in minutes spent in the air (excluding taxi time)'},{'DepartureDelayGroups': 'Categorical grouping of departure delay magnitude'},1.0
+191,"city_elevation, airport_name",airport_iata_code,mondialjoin.csv,False,True,False,"{'city_elevation': 'Elevation of the city in meters above sea level', 'airport_name': ""Full name of the airport (e.g., 'Herat', 'Kabul Intl')""}","{'airport_iata_code': ""IATA airport code (e.g., 'HEA', 'KBL')""}",1.0
+535,fullGivenName,college,women_basketball.csv,False,True,False,"{'fullGivenName': ""Player's full given name""}",{'college': 'College or university player attended'},1.0
+420,client_id,A11,financial.csv,False,True,True,{'client_id': 'Unique identifier for the bank client'},{'A11': 'Number of crimes per 1000 inhabitants in the district'},1.0
+367,emp_HireDate,emp_Country,northwind.csv,False,True,False,,,1.0
+39,"ArrDelay, FlightDate",OriginStateName,croppedairline.csv,True,True,False,"{'ArrDelay': 'Arrival delay in minutes (negative indicates early arrival)', 'FlightDate': 'Date of the flight in YYYY-MM-DD format'}",{'OriginStateName': 'Full state name of the origin'},1.0
+395,disp_id,birth_date,financial.csv,False,True,True,{'disp_id': 'Unique identifier for the disposition (account ownership record)'},"{'birth_date': ""Client's date of birth""}",1.0
+309,emp_BirthDate,emp_LastName,northwind.csv,False,True,False,,,1.0
+34,ActualElapsedTime,OriginStateName,croppedairline.csv,True,True,False,{'ActualElapsedTime': 'Actual elapsed flight time in minutes'},{'OriginStateName': 'Full state name of the origin'},1.0
+263,cust_CompanyName,cust_Address,northwind.csv,False,True,False,,,1.0
+14,FlightNum,DepDel15,croppedairline.csv,True,True,False,{'FlightNum': 'Flight number assigned by the airline'},"{'DepDel15': 'Binary indicator (1=delayed 15+ minutes, 0=not delayed 15+ minutes)'}",1.0
+119,ArrTime,DepartureDelayGroups,croppedairline.csv,True,True,False,{'ArrTime': 'Actual arrival time in HHMM format'},{'DepartureDelayGroups': 'Categorical grouping of departure delay magnitude'},1.0
+15,DepTime,DepTimeBlk,croppedairline.csv,True,True,True,{'DepTime': 'Actual departure time in HHMM format'},{'DepTimeBlk': 'Departure time block in HHMM-HHMM format'},1.0
+291,emp_LastName,emp_ReportsTo,northwind.csv,False,True,False,,,1.0
+212,ProductID,prd_ReorderLevel,northwind.csv,False,True,True,,,1.0
+107,"DestCityMarketID, ArrTimeBlk",OriginStateName,croppedairline.csv,True,True,False,"{'DestCityMarketID': 'Numeric identifier for the destination city market', 'ArrTimeBlk': 'Arrival time block in HHMM-HHMM format'}",{'OriginStateName': 'Full state name of the origin'},0.0
+479,disp_id,status,financial.csv,False,True,False,{'disp_id': 'Unique identifier for the disposition (account ownership record)'},"{'status': ""Loan status: 'A' (finished), 'B' (finished early), 'D' (debtor default)""}",1.0
+79,"DestAirportSeqID, ArrTimeBlk",OriginStateName,croppedairline.csv,True,True,False,"{'DestAirportSeqID': 'Sequential identifier for the destination airport', 'ArrTimeBlk': 'Arrival time block in HHMM-HHMM format'}",{'OriginStateName': 'Full state name of the origin'},1.0
+126,CRSDepTime,DepartureDelayGroups,croppedairline.csv,True,True,False,{'CRSDepTime': 'Scheduled departure time in HHMM format'},{'DepartureDelayGroups': 'Categorical grouping of departure delay magnitude'},1.0
+1,ArrTime,ArrDel15,croppedairline.csv,True,True,False,{'ArrTime': 'Actual arrival time in HHMM format'},"{'ArrDel15': 'Binary indicator (1=delayed 15+ minutes, 0=not delayed 15+ minutes)'}",1.0
+399,disp_id,A2,financial.csv,False,True,True,{'disp_id': 'Unique identifier for the disposition (account ownership record)'},"{'A2': ""Name of the district/region (e.g., 'Hl.m. Praha', 'Tabor')""}",1.0
+150,country_code,country_population,mondialjoin.csv,False,True,True,"{'country_code': ""ISO country code (e.g., 'AFG' for Afghanistan)""}",{'country_population': 'Total population of the country'},1.0
+407,disp_id,A14,financial.csv,False,True,True,{'disp_id': 'Unique identifier for the disposition (account ownership record)'},{'A14': 'Ratio of enterprise turnover to GDP in the district'},0.0
+414,disp_id,disp_type,financial.csv,False,True,True,{'disp_id': 'Unique identifier for the disposition (account ownership record)'},"{'disp_type': ""Type of account disposition: 'OWNER' for primary owner or 'DISPONENT' for secondary holder""}",1.0
+60,"TaxiIn, DayofMonth",OriginStateName,croppedairline.csv,True,True,False,"{'TaxiIn': 'Time in minutes from landing to gate arrival', 'DayofMonth': 'Day of the month (1-31)'}",{'OriginStateName': 'Full state name of the origin'},1.0
+323,emp_Address,emp_LastName,northwind.csv,False,True,False,,,0.0
+151,"country_code, language_name",language_percentage,mondialjoin.csv,False,True,True,"{'country_code': ""ISO country code (e.g., 'AFG' for Afghanistan)"", 'language_name': ""Name of the language spoken in the country/city (e.g., 'Afghan Persian')""}",{'language_percentage': 'Percentage of population speaking this language'},1.0
+308,emp_BirthDate,EmployeeID,northwind.csv,False,True,False,,,1.0
+143,TaxiIn,Cancelled,croppedairline.csv,True,True,False,{'TaxiIn': 'Time in minutes from landing to gate arrival'},"{'Cancelled': 'Binary indicator (1=flight cancelled, 0=flight not cancelled)'}",1.0
+530,fullGivenName,bioID,women_basketball.csv,False,True,False,"{'fullGivenName': ""Player's full given name""}",{'bioID': 'Unique identifier for a player'},1.0
+523,bioID,lastseason,women_basketball.csv,False,True,True,{'bioID': 'Unique identifier for a player'},"{'lastseason': ""Year player's career ended""}",1.0
+311,emp_BirthDate,emp_Address,northwind.csv,False,True,False,,,0.0
+142,DepartureDelayGroups,Cancelled,croppedairline.csv,True,True,False,{'DepartureDelayGroups': 'Categorical grouping of departure delay magnitude'},"{'Cancelled': 'Binary indicator (1=flight cancelled, 0=flight not cancelled)'}",1.0
+110,ArrTime,OriginStateFips,croppedairline.csv,True,True,False,{'ArrTime': 'Actual arrival time in HHMM format'},{'OriginStateFips': 'Federal Information Processing Standards code for origin state'},0.0
+74,"DestAirportSeqID, FlightDate",OriginStateName,croppedairline.csv,True,True,False,"{'DestAirportSeqID': 'Sequential identifier for the destination airport', 'FlightDate': 'Date of the flight in YYYY-MM-DD format'}",{'OriginStateName': 'Full state name of the origin'},1.0
+500,A2,A16,financial.csv,False,True,False,"{'A2': ""Name of the district/region (e.g., 'Hl.m. Praha', 'Tabor')""}","{'A16': ""Number of crimes 'B' (violent crimes?) in the district""}",1.0
+357,emp_HomePhone,emp_HireDate,northwind.csv,False,True,False,,,1.0
+348,emp_PostalCode,emp_Region,northwind.csv,False,True,False,,,1.0
+298,emp_FirstName,emp_PostalCode,northwind.csv,False,True,False,,,0.0
+489,client_id,disp_type,financial.csv,False,True,False,{'client_id': 'Unique identifier for the bank client'},"{'disp_type': ""Type of account disposition: 'OWNER' for primary owner or 'DISPONENT' for secondary holder""}",1.0
+49,"DepTimeBlk, ArrDelay",OriginStateName,croppedairline.csv,True,True,False,"{'DepTimeBlk': 'Departure time block in HHMM-HHMM format', 'ArrDelay': 'Arrival delay in minutes (negative indicates early arrival)'}",{'OriginStateName': 'Full state name of the origin'},0.0
+127,"Distance, FlightDate",DepartureDelayGroups,croppedairline.csv,True,True,False,"{'Distance': 'Flight distance in miles', 'FlightDate': 'Date of the flight in YYYY-MM-DD format'}",{'DepartureDelayGroups': 'Categorical grouping of departure delay magnitude'},1.0
+83,"Dest, ArrDelay",OriginStateName,croppedairline.csv,True,True,False,"{'Dest': 'Three-letter airport code for destination', 'ArrDelay': 'Arrival delay in minutes (negative indicates early arrival)'}",{'OriginStateName': 'Full state name of the origin'},0.0
+0,ArrDelay,ArrDel15,croppedairline.csv,True,True,True,{'ArrDelay': 'Arrival delay in minutes (negative indicates early arrival)'},"{'ArrDel15': 'Binary indicator (1=delayed 15+ minutes, 0=not delayed 15+ minutes)'}",1.0
+502,bioID,birthDate,women_basketball.csv,False,True,True,{'bioID': 'Unique identifier for a player'},"{'birthDate': ""Player's date of birth (YYYY-MM-DD format)""}",1.0
+359,emp_HomePhone,emp_Title,northwind.csv,False,True,False,,,1.0
+469,order_id,duration,financial.csv,False,True,False,{'order_id': 'Unique identifier for the transaction order'},{'duration': 'Loan duration in months'},1.0
+386,order_id,A12,financial.csv,False,True,True,{'order_id': 'Unique identifier for the transaction order'},{'A12': 'Number of enterprises per 1000 inhabitants in the district'},1.0
+239,OrderID,emp_ReportsTo,northwind.csv,False,True,True,,,1.0
+198,CustomerID,cust_Phone,northwind.csv,False,True,True,,,1.0
+352,emp_HomePhone,emp_FirstName,northwind.csv,False,True,False,,,0.0
+106,"DestCityMarketID, DepTimeBlk",OriginStateName,croppedairline.csv,True,True,False,"{'DestCityMarketID': 'Numeric identifier for the destination city market', 'DepTimeBlk': 'Departure time block in HHMM-HHMM format'}",{'OriginStateName': 'Full state name of the origin'},1.0
+364,emp_HireDate,emp_City,northwind.csv,False,True,False,,,0.0
+374,order_id,account_id,financial.csv,False,True,True,{'order_id': 'Unique identifier for the transaction order'},{'account_id': 'Unique identifier for the bank account'},1.0
+217,EmployeeID,emp_Address,northwind.csv,False,True,True,,,1.0
+9,ArrTime,DepDel15,croppedairline.csv,True,True,False,{'ArrTime': 'Actual arrival time in HHMM format'},"{'DepDel15': 'Binary indicator (1=delayed 15+ minutes, 0=not delayed 15+ minutes)'}",1.0
+55,"DepDelay, ArrTimeBlk",OriginStateName,croppedairline.csv,True,True,False,"{'DepDelay': 'Departure delay in minutes (negative indicates early departure)', 'ArrTimeBlk': 'Arrival time block in HHMM-HHMM format'}",{'OriginStateName': 'Full state name of the origin'},0.0
+260,ord_ShipAddress,cust_Phone,northwind.csv,False,True,False,,,1.0
+390,order_id,A9,financial.csv,False,True,True,{'order_id': 'Unique identifier for the transaction order'},{'A9': 'Average salary in the district'},0.0
+90,"Dest, TaxiIn",OriginStateName,croppedairline.csv,True,True,False,"{'Dest': 'Three-letter airport code for destination', 'TaxiIn': 'Time in minutes from landing to gate arrival'}",{'OriginStateName': 'Full state name of the origin'},1.0
+252,ord_ShipName,cust_City,northwind.csv,False,True,False,,,1.0
+319,emp_BirthDate,emp_ReportsTo,northwind.csv,False,True,False,,,1.0
+230,OrderID,emp_BirthDate,northwind.csv,False,True,True,,,1.0
+465,order_id,loan_id,financial.csv,False,True,False,{'order_id': 'Unique identifier for the transaction order'},{'loan_id': 'Unique identifier for the loan'},1.0
+360,emp_HomePhone,emp_TitleOfCourtesy,northwind.csv,False,True,False,,,1.0
+345,emp_PostalCode,emp_Title,northwind.csv,False,True,False,,,1.0
+284,emp_LastName,emp_PostalCode,northwind.csv,False,True,False,,,1.0
+372,order_id,account_to,financial.csv,False,True,True,{'order_id': 'Unique identifier for the transaction order'},{'account_to': 'Destination account number for the transaction'},1.0
+197,CustomerID,cust_Address,northwind.csv,False,True,True,,,1.0
+447,loan_id,A8,financial.csv,False,True,True,{'loan_id': 'Unique identifier for the loan'},{'A8': 'Ratio of urban inhabitants in the district'},1.0
+385,order_id,A14,financial.csv,False,True,True,{'order_id': 'Unique identifier for the transaction order'},{'A14': 'Ratio of enterprise turnover to GDP in the district'},1.0
+550,tmID,lgID,women_basketball.csv,False,True,False,{'tmID': 'Team identifier/abbreviation'},"{'lgID': 'League identifier (e.g., WNBA)'}",1.0
+440,loan_id,A5,financial.csv,False,True,True,{'loan_id': 'Unique identifier for the loan'},{'A5': 'Number of inhabitants per house in the district'},1.0
+322,emp_Address,EmployeeID,northwind.csv,False,True,False,,,0.0
+490,account_id,loan_id,financial.csv,False,True,False,{'account_id': 'Unique identifier for the bank account'},{'loan_id': 'Unique identifier for the loan'},1.0
+56,"TaxiOut, ArrTimeBlk",OriginStateName,croppedairline.csv,True,True,False,"{'TaxiOut': 'Time in minutes from gate departure to takeoff', 'ArrTimeBlk': 'Arrival time block in HHMM-HHMM format'}",{'OriginStateName': 'Full state name of the origin'},1.0
+225,EmployeeID,emp_ReportsTo,northwind.csv,False,True,True,,,1.0
+526,fullGivenName,middleName,women_basketball.csv,False,True,True,"{'fullGivenName': ""Player's full given name""}","{'middleName': ""Player's middle name""}",1.0
+99,"DestCityName, DistanceGroup",OriginStateName,croppedairline.csv,True,True,False,"{'DestCityName': 'City and state name of the destination airport', 'DistanceGroup': 'Categorical grouping of flight distance'}",{'OriginStateName': 'Full state name of the origin'},1.0
+128,CRSArrTime,DepTimeBlk,croppedairline.csv,True,True,False,{'CRSArrTime': 'Scheduled arrival time in HHMM format'},{'DepTimeBlk': 'Departure time block in HHMM-HHMM format'},1.0
+209,ProductID,prd_SupplierID,northwind.csv,False,True,True,,,1.0
+207,ProductID,prd_UnitPrice,northwind.csv,False,True,True,,,1.0
+248,ord_ShipName,cust_ContactName,northwind.csv,False,True,False,,,1.0
+0,DepTime,ArrDel15,croppedairline.csv,True,True,False,{'DepTime': 'Actual departure time in HHMM format'},"{'ArrDel15': 'Binary indicator (1=delayed 15+ minutes, 0=not delayed 15+ minutes)'}",1.0
+61,"DepTimeBlk, TaxiIn",OriginStateName,croppedairline.csv,True,True,False,"{'DepTimeBlk': 'Departure time block in HHMM-HHMM format', 'TaxiIn': 'Time in minutes from landing to gate arrival'}",{'OriginStateName': 'Full state name of the origin'},1.0
+214,EmployeeID,emp_LastName,northwind.csv,False,True,True,,,1.0
+97,"DestCityName, ArrTimeBlk",OriginStateName,croppedairline.csv,True,True,False,"{'DestCityName': 'City and state name of the destination airport', 'ArrTimeBlk': 'Arrival time block in HHMM-HHMM format'}",{'OriginStateName': 'Full state name of the origin'},1.0
+181,"city_population, airport_name, language_name",language_percentage,mondialjoin.csv,False,True,False,"{'city_population': 'Population of the city (can be NULL)', 'airport_name': ""Full name of the airport (e.g., 'Herat', 'Kabul Intl')"", 'language_name': ""Name of the language spoken in the country/city (e.g., 'Afghan Persian')""}",{'language_percentage': 'Percentage of population speaking this language'},1.0
+152,"country_code, airport_name, city_name",airport_iata_code,mondialjoin.csv,False,True,True,"{'country_code': ""ISO country code (e.g., 'AFG' for Afghanistan)"", 'airport_name': ""Full name of the airport (e.g., 'Herat', 'Kabul Intl')"", 'city_name': ""Name of the city (e.g., 'Herat', 'Kabul')""}","{'airport_iata_code': ""IATA airport code (e.g., 'HEA', 'KBL')""}",1.0
+481,client_id,account_id,financial.csv,False,True,False,{'client_id': 'Unique identifier for the bank client'},{'account_id': 'Unique identifier for the bank account'},1.0
+202,CustomerID,cust_Country,northwind.csv,False,True,True,,,1.0
+415,disp_id,gender,financial.csv,False,True,True,{'disp_id': 'Unique identifier for the disposition (account ownership record)'},"{'gender': ""Client's gender: 'M' for male or 'F' for female""}",1.0
+333,emp_Address,emp_ReportsTo,northwind.csv,False,True,False,,,1.0
+378,order_id,A4,financial.csv,False,True,True,{'order_id': 'Unique identifier for the transaction order'},{'A4': 'Population of the district'},1.0
+35,AirTime,OriginStateName,croppedairline.csv,True,True,False,{'AirTime': 'Time in minutes spent in the air (excluding taxi time)'},{'OriginStateName': 'Full state name of the origin'},1.0
+124,FlightNum,DepartureDelayGroups,croppedairline.csv,True,True,False,{'FlightNum': 'Flight number assigned by the airline'},{'DepartureDelayGroups': 'Categorical grouping of departure delay magnitude'},1.0
+369,emp_City,emp_Country,northwind.csv,False,True,False,,,1.0
+264,cust_CompanyName,cust_Phone,northwind.csv,False,True,False,,,1.0
+485,client_id,loan_date,financial.csv,False,True,False,{'client_id': 'Unique identifier for the bank client'},{'loan_date': 'Date when the loan was granted'},0.0
+508,bioID,college,women_basketball.csv,False,True,True,{'bioID': 'Unique identifier for a player'},{'college': 'College or university player attended'},1.0
+353,emp_HomePhone,emp_BirthDate,northwind.csv,False,True,False,,,1.0
+168,airport_longitude,country_population,mondialjoin.csv,False,True,False,{'airport_longitude': 'Longitude coordinate of the airport'},{'country_population': 'Total population of the country'},0.0
+62,"DepDelay, TaxiIn",OriginStateName,croppedairline.csv,True,True,False,"{'DepDelay': 'Departure delay in minutes (negative indicates early departure)', 'TaxiIn': 'Time in minutes from landing to gate arrival'}",{'OriginStateName': 'Full state name of the origin'},1.0
+458,district_id,A14,financial.csv,False,True,True,"{'district_id': ""Unique identifier for the client's district""}",{'A14': 'Ratio of enterprise turnover to GDP in the district'},1.0
+358,emp_HomePhone,emp_City,northwind.csv,False,True,False,,,0.0
+267,cust_ContactName,cust_Fax,northwind.csv,False,True,False,,,0.0
+10,OriginStateFips,OriginStateName,croppedairline.csv,True,True,True,{'OriginStateFips': 'Federal Information Processing Standards code for origin state'},{'OriginStateName': 'Full state name of the origin'},1.0
+165,"city_population, city_name",city_position,mondialjoin.csv,False,True,False,"{'city_population': 'Population of the city (can be NULL)', 'city_name': ""Name of the city (e.g., 'Herat', 'Kabul')""}","{'city_position': 'Comma-separated longitude,latitude string for the city'}",1.0
