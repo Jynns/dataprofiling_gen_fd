@@ -15,10 +15,11 @@ OLLAMA_API_URL = os.getenv("OLLAMA_API_URL", "http://localhost:11434")
 TIMEOUT = int(os.getenv("TIMEOUT", 60))
 TEMPERATURE = float(os.getenv("TEMPERATURE", 0.2))
 
-
+## Few shots prompting, fine tuning?  
 def fd_classify_prompt(lhs: Union[str, List[str]], rhs: str, table_name: str = None, lhs_desc: str = None, rhs_desc: str = None) -> str:
     if isinstance(lhs, str):
         lhs = [lhs]
+
 
     lhs_str = ", ".join(lhs)
 
@@ -141,6 +142,8 @@ Table Name: {table_name}
 {examples_table}
 
 Based on the table name, column names, and example values provided, generate a concise description for each column. The description should explain what data the column contains and be appropriate for the {table_name} domain.
+
+If the column name is ambiguous and cannot be inferred with high confidence with regards to the table name, respond with "nan" as the description for that column.
 
 Return ONLY valid JSON (no markdown, no extra text) with the following format:
 {{

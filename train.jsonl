@@ -1,0 +1,511 @@
+{"lhs": "TailNum", "rhs": "ArrDel15", "is_approx": true, "is_genuine": false}
+{"lhs": "client_id", "rhs": "account_id", "is_approx": false, "is_genuine": false}
+{"lhs": "emp_HireDate", "rhs": "emp_Region", "is_approx": false, "is_genuine": false}
+{"lhs": "client_id", "rhs": "payments", "is_approx": false, "is_genuine": false}
+{"lhs": "fullGivenName", "rhs": "lastseason", "is_approx": false, "is_genuine": false}
+{"lhs": "lastName", "rhs": "firstseason", "is_approx": false, "is_genuine": false}
+{"lhs": "city_longitude, airport_elevation", "rhs": "city_position", "is_approx": false, "is_genuine": false}
+{"lhs": "Dest, DepDelay", "rhs": "OriginStateName", "is_approx": true, "is_genuine": false}
+{"lhs": "bioID", "rhs": "hsCountry", "is_approx": false, "is_genuine": true}
+{"lhs": "district_id", "rhs": "A4", "is_approx": false, "is_genuine": true}
+{"lhs": "DepDelay", "rhs": "DepartureDelayGroups", "is_approx": true, "is_genuine": true}
+{"lhs": "points", "rhs": "firstseason", "is_approx": false, "is_genuine": false}
+{"lhs": "ord_ShipName", "rhs": "cust_Country", "is_approx": false, "is_genuine": false}
+{"lhs": "emp_LastName", "rhs": "emp_FirstName", "is_approx": false, "is_genuine": false}
+{"lhs": "ord_ShipName", "rhs": "cust_Region", "is_approx": false, "is_genuine": false}
+{"lhs": "ArrivalDelayGroups", "rhs": "Cancelled", "is_approx": true, "is_genuine": false}
+{"lhs": "EmployeeID", "rhs": "emp_Country", "is_approx": false, "is_genuine": true}
+{"lhs": "DestAirportID, DistanceGroup", "rhs": "OriginStateName", "is_approx": true, "is_genuine": false}
+{"lhs": "cust_CompanyName", "rhs": "cust_Phone", "is_approx": false, "is_genuine": false}
+{"lhs": "lastName", "rhs": "lastseason", "is_approx": false, "is_genuine": false}
+{"lhs": "order_id", "rhs": "district_id", "is_approx": false, "is_genuine": true}
+{"lhs": "DestAirportSeqID, DistanceGroup", "rhs": "OriginStateName", "is_approx": true, "is_genuine": false}
+{"lhs": "DepDelay", "rhs": "Cancelled", "is_approx": true, "is_genuine": false}
+{"lhs": "DepTime", "rhs": "DepartureDelayGroups", "is_approx": true, "is_genuine": false}
+{"lhs": "Dest, TaxiIn", "rhs": "OriginStateName", "is_approx": true, "is_genuine": false}
+{"lhs": "ArrTime", "rhs": "DepDel15", "is_approx": true, "is_genuine": false}
+{"lhs": "loan_id", "rhs": "account_id", "is_approx": false, "is_genuine": true}
+{"lhs": "ord_ShipName", "rhs": "cust_ContactName", "is_approx": false, "is_genuine": false}
+{"lhs": "order_id", "rhs": "A10", "is_approx": false, "is_genuine": true}
+{"lhs": "Dest, DayofMonth", "rhs": "OriginStateName", "is_approx": true, "is_genuine": false}
+{"lhs": "DepDelay, DayofMonth", "rhs": "DepTimeBlk", "is_approx": true, "is_genuine": false}
+{"lhs": "city_latitude, airport_name, language_name", "rhs": "language_percentage", "is_approx": false, "is_genuine": false}
+{"lhs": "CRSArrTime", "rhs": "OriginStateFips", "is_approx": true, "is_genuine": false}
+{"lhs": "ArrDelayMinutes", "rhs": "Cancelled", "is_approx": true, "is_genuine": false}
+{"lhs": "fullGivenName", "rhs": "college", "is_approx": false, "is_genuine": false}
+{"lhs": "airport_name, airport_elevation", "rhs": "country_population", "is_approx": false, "is_genuine": false}
+{"lhs": "points", "rhs": "lastseason", "is_approx": false, "is_genuine": false}
+{"lhs": "CRSElapsedTime", "rhs": "DepTimeBlk", "is_approx": true, "is_genuine": false}
+{"lhs": "DestAirportSeqID, TaxiOut", "rhs": "OriginStateName", "is_approx": true, "is_genuine": false}
+{"lhs": "disp_id", "rhs": "client_id", "is_approx": false, "is_genuine": true}
+{"lhs": "city_latitude, airport_name", "rhs": "city_position", "is_approx": false, "is_genuine": false}
+{"lhs": "EmployeeID", "rhs": "emp_HireDate", "is_approx": false, "is_genuine": true}
+{"lhs": "bioID", "rhs": "nameNick", "is_approx": false, "is_genuine": true}
+{"lhs": "ord_ShipAddress", "rhs": "cust_Phone", "is_approx": false, "is_genuine": false}
+{"lhs": "emp_HireDate", "rhs": "emp_TitleOfCourtesy", "is_approx": false, "is_genuine": false}
+{"lhs": "DestAirportSeqID, DayofMonth", "rhs": "OriginStateName", "is_approx": true, "is_genuine": false}
+{"lhs": "airport_latitude", "rhs": "airport_longitude", "is_approx": false, "is_genuine": false}
+{"lhs": "ProductID", "rhs": "prd_CategoryID", "is_approx": false, "is_genuine": true}
+{"lhs": "CustomerID", "rhs": "ord_ShipRegion", "is_approx": false, "is_genuine": false}
+{"lhs": "DestAirportID, DepDelay", "rhs": "OriginStateName", "is_approx": true, "is_genuine": false}
+{"lhs": "city_population, city_name", "rhs": "city_position", "is_approx": false, "is_genuine": false}
+{"lhs": "TaxiIn, ArrTimeBlk", "rhs": "OriginStateName", "is_approx": true, "is_genuine": false}
+{"lhs": "TailNum", "rhs": "Cancelled", "is_approx": true, "is_genuine": false}
+{"lhs": "OrderID", "rhs": "emp_BirthDate", "is_approx": false, "is_genuine": true}
+{"lhs": "CRSElapsedTime", "rhs": "DepDel15", "is_approx": true, "is_genuine": false}
+{"lhs": "birthDate", "rhs": "nameGiven", "is_approx": false, "is_genuine": false}
+{"lhs": "OrderID", "rhs": "emp_LastName", "is_approx": false, "is_genuine": true}
+{"lhs": "OrderID", "rhs": "emp_Address", "is_approx": false, "is_genuine": true}
+{"lhs": "Dest, DepTimeBlk", "rhs": "OriginStateName", "is_approx": true, "is_genuine": false}
+{"lhs": "emp_BirthDate", "rhs": "emp_Title", "is_approx": false, "is_genuine": false}
+{"lhs": "emp_PostalCode", "rhs": "emp_Title", "is_approx": false, "is_genuine": false}
+{"lhs": "CRSElapsedTime", "rhs": "OriginStateName", "is_approx": true, "is_genuine": false}
+{"lhs": "emp_LastName", "rhs": "emp_HomePhone", "is_approx": false, "is_genuine": false}
+{"lhs": "emp_City", "rhs": "emp_Country", "is_approx": false, "is_genuine": false}
+{"lhs": "TailNum", "rhs": "DepTimeBlk", "is_approx": true, "is_genuine": false}
+{"lhs": "DepTime", "rhs": "ArrDel15", "is_approx": true, "is_genuine": false}
+{"lhs": "emp_FirstName", "rhs": "emp_LastName", "is_approx": false, "is_genuine": false}
+{"lhs": "ActualElapsedTime", "rhs": "DepDel15", "is_approx": true, "is_genuine": false}
+{"lhs": "emp_BirthDate", "rhs": "emp_Address", "is_approx": false, "is_genuine": false}
+{"lhs": "emp_FirstName", "rhs": "emp_Title", "is_approx": false, "is_genuine": false}
+{"lhs": "TaxiOut, TaxiIn", "rhs": "DepDel15", "is_approx": true, "is_genuine": false}
+{"lhs": "order_id", "rhs": "A2", "is_approx": false, "is_genuine": true}
+{"lhs": "EmployeeID", "rhs": "emp_Address", "is_approx": false, "is_genuine": true}
+{"lhs": "Dest, ArrTimeBlk", "rhs": "OriginStateName", "is_approx": true, "is_genuine": false}
+{"lhs": "language_name, country_population", "rhs": "language_percentage", "is_approx": false, "is_genuine": false}
+{"lhs": "emp_BirthDate", "rhs": "emp_City", "is_approx": false, "is_genuine": false}
+{"lhs": "TaxiOut, DayofMonth", "rhs": "DepDel15", "is_approx": true, "is_genuine": false}
+{"lhs": "emp_HomePhone", "rhs": "emp_BirthDate", "is_approx": false, "is_genuine": false}
+{"lhs": "fullGivenName", "rhs": "highSchool", "is_approx": false, "is_genuine": false}
+{"lhs": "bioID", "rhs": "nameGiven", "is_approx": false, "is_genuine": true}
+{"lhs": "EmployeeID", "rhs": "emp_LastName", "is_approx": false, "is_genuine": true}
+{"lhs": "disp_id", "rhs": "A12", "is_approx": false, "is_genuine": true}
+{"lhs": "airport_latitude", "rhs": "country_population", "is_approx": false, "is_genuine": false}
+{"lhs": "emp_PostalCode", "rhs": "emp_Address", "is_approx": false, "is_genuine": false}
+{"lhs": "DayofMonth, ArrTimeBlk", "rhs": "OriginStateName", "is_approx": true, "is_genuine": false}
+{"lhs": "city_population, airport_name", "rhs": "country_population", "is_approx": false, "is_genuine": false}
+{"lhs": "TaxiOut, FlightDate", "rhs": "OriginStateName", "is_approx": true, "is_genuine": false}
+{"lhs": "DestCityName, FlightDate", "rhs": "OriginStateName", "is_approx": true, "is_genuine": false}
+{"lhs": "ProductID", "rhs": "prd_ProductName", "is_approx": false, "is_genuine": true}
+{"lhs": "FlightNum", "rhs": "OriginStateFips", "is_approx": true, "is_genuine": false}
+{"lhs": "emp_HomePhone", "rhs": "EmployeeID", "is_approx": false, "is_genuine": false}
+{"lhs": "tmID", "rhs": "lgID", "is_approx": false, "is_genuine": false}
+{"lhs": "disp_id", "rhs": "gender", "is_approx": false, "is_genuine": true}
+{"lhs": "order_id", "rhs": "order_amount", "is_approx": false, "is_genuine": true}
+{"lhs": "emp_BirthDate", "rhs": "emp_Extension", "is_approx": false, "is_genuine": false}
+{"lhs": "emp_Country", "rhs": "emp_Region", "is_approx": false, "is_genuine": false}
+{"lhs": "city_longitude, airport_province", "rhs": "city_position", "is_approx": false, "is_genuine": false}
+{"lhs": "emp_PostalCode", "rhs": "EmployeeID", "is_approx": false, "is_genuine": false}
+{"lhs": "district_id", "rhs": "A8", "is_approx": false, "is_genuine": true}
+{"lhs": "disp_id", "rhs": "A14", "is_approx": false, "is_genuine": true}
+{"lhs": "DestAirportID, TaxiOut", "rhs": "OriginStateName", "is_approx": true, "is_genuine": false}
+{"lhs": "bioID", "rhs": "college", "is_approx": false, "is_genuine": true}
+{"lhs": "country_code", "rhs": "country_population", "is_approx": false, "is_genuine": true}
+{"lhs": "client_id", "rhs": "loan_date", "is_approx": false, "is_genuine": false}
+{"lhs": "country_population", "rhs": "country_name", "is_approx": false, "is_genuine": false}
+{"lhs": "ArrDelay", "rhs": "ArrDel15", "is_approx": true, "is_genuine": true}
+{"lhs": "FlightNum", "rhs": "DepartureDelayGroups", "is_approx": true, "is_genuine": false}
+{"lhs": "disp_id", "rhs": "A15", "is_approx": false, "is_genuine": true}
+{"lhs": "emp_FirstName", "rhs": "emp_HireDate", "is_approx": false, "is_genuine": false}
+{"lhs": "emp_HomePhone", "rhs": "emp_HireDate", "is_approx": false, "is_genuine": false}
+{"lhs": "city_population, airport_name", "rhs": "airport_iata_code", "is_approx": false, "is_genuine": false}
+{"lhs": "A2", "rhs": "A15", "is_approx": false, "is_genuine": false}
+{"lhs": "disp_id", "rhs": "A3", "is_approx": false, "is_genuine": true}
+{"lhs": "emp_BirthDate", "rhs": "EmployeeID", "is_approx": false, "is_genuine": false}
+{"lhs": "bioID", "rhs": "highSchool", "is_approx": false, "is_genuine": true}
+{"lhs": "order_id", "rhs": "A3", "is_approx": false, "is_genuine": true}
+{"lhs": "ActualElapsedTime", "rhs": "OriginStateFips", "is_approx": true, "is_genuine": false}
+{"lhs": "DepDelayMinutes", "rhs": "Cancelled", "is_approx": true, "is_genuine": false}
+{"lhs": "emp_LastName", "rhs": "emp_PostalCode", "is_approx": false, "is_genuine": false}
+{"lhs": "CRSElapsedTime", "rhs": "ArrDel15", "is_approx": true, "is_genuine": false}
+{"lhs": "district_id", "rhs": "A13", "is_approx": false, "is_genuine": true}
+{"lhs": "TaxiOut, FlightDate", "rhs": "DepDel15", "is_approx": true, "is_genuine": false}
+{"lhs": "city_longitude, airport_name", "rhs": "city_position", "is_approx": false, "is_genuine": false}
+{"lhs": "order_id", "rhs": "A7", "is_approx": false, "is_genuine": true}
+{"lhs": "TaxiOut, ArrTimeBlk", "rhs": "OriginStateName", "is_approx": true, "is_genuine": false}
+{"lhs": "ord_ShipName", "rhs": "cust_PostalCode", "is_approx": false, "is_genuine": false}
+{"lhs": "emp_LastName", "rhs": "emp_BirthDate", "is_approx": false, "is_genuine": false}
+{"lhs": "order_id", "rhs": "A6", "is_approx": false, "is_genuine": true}
+{"lhs": "cust_ContactName", "rhs": "cust_ContactTitle", "is_approx": false, "is_genuine": false}
+{"lhs": "ord_ShipAddress", "rhs": "cust_ContactName", "is_approx": false, "is_genuine": false}
+{"lhs": "DepTimeBlk, ArrDelay", "rhs": "OriginStateName", "is_approx": true, "is_genuine": false}
+{"lhs": "OrderID", "rhs": "emp_PostalCode", "is_approx": false, "is_genuine": true}
+{"lhs": "DepTimeBlk, TaxiOut", "rhs": "DepDel15", "is_approx": true, "is_genuine": false}
+{"lhs": "order_id", "rhs": "A11", "is_approx": false, "is_genuine": true}
+{"lhs": "bioID", "rhs": "fullGivenName", "is_approx": false, "is_genuine": true}
+{"lhs": "ord_ShipName", "rhs": "cust_CompanyName", "is_approx": false, "is_genuine": false}
+{"lhs": "DepDelay, DayofMonth", "rhs": "OriginStateName", "is_approx": true, "is_genuine": false}
+{"lhs": "birthDate", "rhs": "collegeOther", "is_approx": false, "is_genuine": false}
+{"lhs": "order_id", "rhs": "loan_date", "is_approx": false, "is_genuine": false}
+{"lhs": "airport_name, language_percentage, city_name", "rhs": "airport_iata_code", "is_approx": false, "is_genuine": false}
+{"lhs": "disp_id", "rhs": "A2", "is_approx": false, "is_genuine": true}
+{"lhs": "emp_Address", "rhs": "emp_LastName", "is_approx": false, "is_genuine": false}
+{"lhs": "OriginAirportID", "rhs": "OriginStateName", "is_approx": true, "is_genuine": true}
+{"lhs": "CRSDepTime", "rhs": "DepartureDelayGroups", "is_approx": true, "is_genuine": false}
+{"lhs": "ord_ShipAddress", "rhs": "cust_CompanyName", "is_approx": false, "is_genuine": false}
+{"lhs": "emp_HomePhone", "rhs": "emp_LastName", "is_approx": false, "is_genuine": false}
+{"lhs": "order_id", "rhs": "A13", "is_approx": false, "is_genuine": true}
+{"lhs": "city_longitude, airport_city_name", "rhs": "city_position", "is_approx": false, "is_genuine": false}
+{"lhs": "DepTime", "rhs": "OriginStateName", "is_approx": true, "is_genuine": false}
+{"lhs": "CRSElapsedTime", "rhs": "OriginStateFips", "is_approx": true, "is_genuine": false}
+{"lhs": "account_id", "rhs": "payments", "is_approx": false, "is_genuine": false}
+{"lhs": "city_longitude, city_name", "rhs": "city_position", "is_approx": false, "is_genuine": false}
+{"lhs": "cust_CompanyName", "rhs": "cust_Address", "is_approx": false, "is_genuine": false}
+{"lhs": "district_id", "rhs": "A3", "is_approx": false, "is_genuine": true}
+{"lhs": "DepTimeBlk, ArrTimeBlk", "rhs": "OriginStateName", "is_approx": true, "is_genuine": false}
+{"lhs": "cust_ContactName", "rhs": "cust_Region", "is_approx": false, "is_genuine": false}
+{"lhs": "DepTimeBlk, FlightDate", "rhs": "DepDel15", "is_approx": true, "is_genuine": false}
+{"lhs": "Distance", "rhs": "DepDel15", "is_approx": true, "is_genuine": false}
+{"lhs": "emp_FirstName", "rhs": "EmployeeID", "is_approx": false, "is_genuine": false}
+{"lhs": "DestAirportID, DayofMonth", "rhs": "OriginStateName", "is_approx": true, "is_genuine": false}
+{"lhs": "disp_id", "rhs": "duration", "is_approx": false, "is_genuine": false}
+{"lhs": "disp_id", "rhs": "loan_amount", "is_approx": false, "is_genuine": false}
+{"lhs": "emp_PostalCode", "rhs": "emp_FirstName", "is_approx": false, "is_genuine": false}
+{"lhs": "account_to", "rhs": "bank_to", "is_approx": false, "is_genuine": false}
+{"lhs": "client_id", "rhs": "disp_type", "is_approx": false, "is_genuine": false}
+{"lhs": "disp_id", "rhs": "A6", "is_approx": false, "is_genuine": true}
+{"lhs": "district_id", "rhs": "A7", "is_approx": false, "is_genuine": true}
+{"lhs": "account_id", "rhs": "A11", "is_approx": false, "is_genuine": true}
+{"lhs": "DestCityName, DepDelay", "rhs": "OriginStateName", "is_approx": true, "is_genuine": false}
+{"lhs": "city_population, airport_name", "rhs": "city_position", "is_approx": false, "is_genuine": false}
+{"lhs": "EmployeeID", "rhs": "emp_PostalCode", "is_approx": false, "is_genuine": true}
+{"lhs": "DestCityName, DayofMonth", "rhs": "OriginStateName", "is_approx": true, "is_genuine": false}
+{"lhs": "DepTimeBlk, DayofMonth", "rhs": "DepDel15", "is_approx": true, "is_genuine": false}
+{"lhs": "account_to", "rhs": "duration", "is_approx": false, "is_genuine": false}
+{"lhs": "emp_FirstName", "rhs": "emp_City", "is_approx": false, "is_genuine": false}
+{"lhs": "minutes", "rhs": "lastseason", "is_approx": false, "is_genuine": false}
+{"lhs": "FlightNum", "rhs": "ArrDel15", "is_approx": true, "is_genuine": false}
+{"lhs": "CRSDepTime", "rhs": "OriginStateFips", "is_approx": true, "is_genuine": false}
+{"lhs": "TaxiOut, DayofMonth", "rhs": "OriginStateName", "is_approx": true, "is_genuine": false}
+{"lhs": "CustomerID", "rhs": "cust_Region", "is_approx": false, "is_genuine": true}
+{"lhs": "CustomerID", "rhs": "ord_ShipCity", "is_approx": false, "is_genuine": false}
+{"lhs": "emp_Address", "rhs": "emp_HireDate", "is_approx": false, "is_genuine": false}
+{"lhs": "emp_BirthDate", "rhs": "emp_Country", "is_approx": false, "is_genuine": false}
+{"lhs": "CRSDepTime", "rhs": "DepDel15", "is_approx": true, "is_genuine": false}
+{"lhs": "DepDelay, TaxiOut", "rhs": "OriginStateName", "is_approx": true, "is_genuine": false}
+{"lhs": "OrderID", "rhs": "emp_HomePhone", "is_approx": false, "is_genuine": true}
+{"lhs": "client_id", "rhs": "gender", "is_approx": false, "is_genuine": true}
+{"lhs": "ActualElapsedTime", "rhs": "ArrDel15", "is_approx": true, "is_genuine": false}
+{"lhs": "prd_ProductName", "rhs": "prd_UnitsInStock", "is_approx": false, "is_genuine": false}
+{"lhs": "loan_id", "rhs": "loan_date", "is_approx": false, "is_genuine": true}
+{"lhs": "TaxiIn, DayofMonth", "rhs": "OriginStateName", "is_approx": true, "is_genuine": false}
+{"lhs": "language_name, country_area", "rhs": "language_percentage", "is_approx": false, "is_genuine": false}
+{"lhs": "district_id", "rhs": "A16", "is_approx": false, "is_genuine": true}
+{"lhs": "fullGivenName", "rhs": "bioID", "is_approx": false, "is_genuine": false}
+{"lhs": "ArrTime", "rhs": "OriginStateFips", "is_approx": true, "is_genuine": false}
+{"lhs": "loan_id", "rhs": "A9", "is_approx": false, "is_genuine": true}
+{"lhs": "emp_FirstName", "rhs": "emp_TitleOfCourtesy", "is_approx": false, "is_genuine": false}
+{"lhs": "CRSArrTime", "rhs": "OriginStateName", "is_approx": true, "is_genuine": false}
+{"lhs": "bioID", "rhs": "hsState", "is_approx": false, "is_genuine": true}
+{"lhs": "ProductID", "rhs": "prd_UnitsInStock", "is_approx": false, "is_genuine": true}
+{"lhs": "DepTimeBlk, TaxiIn", "rhs": "DepDel15", "is_approx": true, "is_genuine": false}
+{"lhs": "DepDelay, DepTimeBlk", "rhs": "OriginStateName", "is_approx": true, "is_genuine": false}
+{"lhs": "ProductID", "rhs": "prd_ReorderLevel", "is_approx": false, "is_genuine": true}
+{"lhs": "Distance", "rhs": "OriginStateName", "is_approx": true, "is_genuine": false}
+{"lhs": "OriginCityName", "rhs": "OriginStateName", "is_approx": true, "is_genuine": true}
+{"lhs": "EmployeeID", "rhs": "emp_Extension", "is_approx": false, "is_genuine": true}
+{"lhs": "fullGivenName", "rhs": "firstName", "is_approx": false, "is_genuine": true}
+{"lhs": "city_province, city_longitude", "rhs": "city_position", "is_approx": false, "is_genuine": false}
+{"lhs": "loan_id", "rhs": "account_date", "is_approx": false, "is_genuine": true}
+{"lhs": "emp_LastName", "rhs": "emp_Country", "is_approx": false, "is_genuine": false}
+{"lhs": "airport_longitude, language_name", "rhs": "language_percentage", "is_approx": false, "is_genuine": false}
+{"lhs": "loan_id", "rhs": "A15", "is_approx": false, "is_genuine": true}
+{"lhs": "DestAirportID, FlightDate", "rhs": "OriginStateName", "is_approx": true, "is_genuine": false}
+{"lhs": "cust_ContactName", "rhs": "cust_Fax", "is_approx": false, "is_genuine": false}
+{"lhs": "country_code, language_name", "rhs": "language_percentage", "is_approx": false, "is_genuine": true}
+{"lhs": "prd_ProductName", "rhs": "prd_UnitPrice", "is_approx": false, "is_genuine": false}
+{"lhs": "disp_id", "rhs": "payments", "is_approx": false, "is_genuine": false}
+{"lhs": "airport_latitude, language_name", "rhs": "language_percentage", "is_approx": false, "is_genuine": false}
+{"lhs": "DepDelayMinutes", "rhs": "DepDel15", "is_approx": true, "is_genuine": true}
+{"lhs": "prd_ProductName", "rhs": "prd_SupplierID", "is_approx": false, "is_genuine": false}
+{"lhs": "district_id", "rhs": "A10", "is_approx": false, "is_genuine": true}
+{"lhs": "client_id", "rhs": "A11", "is_approx": false, "is_genuine": true}
+{"lhs": "emp_LastName", "rhs": "emp_City", "is_approx": false, "is_genuine": false}
+{"lhs": "DestCityMarketID, DayofMonth", "rhs": "OriginStateName", "is_approx": true, "is_genuine": false}
+{"lhs": "emp_Address", "rhs": "emp_TitleOfCourtesy", "is_approx": false, "is_genuine": false}
+{"lhs": "DestAirportSeqID, FlightDate", "rhs": "OriginStateName", "is_approx": true, "is_genuine": false}
+{"lhs": "emp_HomePhone", "rhs": "emp_TitleOfCourtesy", "is_approx": false, "is_genuine": false}
+{"lhs": "minutes", "rhs": "firstseason", "is_approx": false, "is_genuine": false}
+{"lhs": "ArrTime", "rhs": "DepartureDelayGroups", "is_approx": true, "is_genuine": false}
+{"lhs": "disp_id", "rhs": "A5", "is_approx": false, "is_genuine": true}
+{"lhs": "emp_PostalCode", "rhs": "emp_Region", "is_approx": false, "is_genuine": false}
+{"lhs": "client_id", "rhs": "district_id", "is_approx": false, "is_genuine": true}
+{"lhs": "order_id", "rhs": "status", "is_approx": false, "is_genuine": false}
+{"lhs": "emp_PostalCode", "rhs": "emp_ReportsTo", "is_approx": false, "is_genuine": false}
+{"lhs": "emp_LastName", "rhs": "emp_HireDate", "is_approx": false, "is_genuine": false}
+{"lhs": "emp_PostalCode", "rhs": "emp_City", "is_approx": false, "is_genuine": false}
+{"lhs": "district_id", "rhs": "A11", "is_approx": false, "is_genuine": true}
+{"lhs": "emp_BirthDate", "rhs": "emp_ReportsTo", "is_approx": false, "is_genuine": false}
+{"lhs": "CRSDepTime", "rhs": "OriginStateName", "is_approx": true, "is_genuine": false}
+{"lhs": "DepTime", "rhs": "Cancelled", "is_approx": true, "is_genuine": false}
+{"lhs": "OrderID", "rhs": "emp_City", "is_approx": false, "is_genuine": true}
+{"lhs": "emp_Address", "rhs": "emp_Title", "is_approx": false, "is_genuine": false}
+{"lhs": "TaxiIn, FlightDate", "rhs": "OriginStateName", "is_approx": true, "is_genuine": false}
+{"lhs": "DepTime", "rhs": "OriginStateFips", "is_approx": true, "is_genuine": false}
+{"lhs": "emp_FirstName", "rhs": "emp_ReportsTo", "is_approx": false, "is_genuine": false}
+{"lhs": "bioID", "rhs": "weight", "is_approx": false, "is_genuine": true}
+{"lhs": "CustomerID", "rhs": "ord_ShipCountry", "is_approx": false, "is_genuine": false}
+{"lhs": "account_id", "rhs": "A4", "is_approx": false, "is_genuine": true}
+{"lhs": "emp_LastName", "rhs": "EmployeeID", "is_approx": false, "is_genuine": false}
+{"lhs": "ArrDelayMinutes", "rhs": "ArrDel15", "is_approx": true, "is_genuine": true}
+{"lhs": "ord_ShipName", "rhs": "cust_Address", "is_approx": false, "is_genuine": false}
+{"lhs": "district_id", "rhs": "A2", "is_approx": false, "is_genuine": true}
+{"lhs": "DayofMonth, ArrDelay", "rhs": "OriginStateName", "is_approx": true, "is_genuine": false}
+{"lhs": "fullGivenName", "rhs": "birthDate", "is_approx": false, "is_genuine": false}
+{"lhs": "emp_LastName", "rhs": "emp_TitleOfCourtesy", "is_approx": false, "is_genuine": false}
+{"lhs": "city_population, airport_name, language_name", "rhs": "language_percentage", "is_approx": false, "is_genuine": false}
+{"lhs": "emp_FirstName", "rhs": "emp_HomePhone", "is_approx": false, "is_genuine": false}
+{"lhs": "ArrTime", "rhs": "Cancelled", "is_approx": true, "is_genuine": false}
+{"lhs": "district_id", "rhs": "A9", "is_approx": false, "is_genuine": true}
+{"lhs": "TaxiOut", "rhs": "Cancelled", "is_approx": true, "is_genuine": false}
+{"lhs": "emp_HomePhone", "rhs": "emp_City", "is_approx": false, "is_genuine": false}
+{"lhs": "client_id", "rhs": "disp_id", "is_approx": false, "is_genuine": false}
+{"lhs": "AirTime", "rhs": "DepartureDelayGroups", "is_approx": true, "is_genuine": false}
+{"lhs": "loan_id", "rhs": "A11", "is_approx": false, "is_genuine": true}
+{"lhs": "DestCityName, DepTimeBlk", "rhs": "OriginStateName", "is_approx": true, "is_genuine": false}
+{"lhs": "TaxiIn", "rhs": "Cancelled", "is_approx": true, "is_genuine": false}
+{"lhs": "EmployeeID", "rhs": "emp_City", "is_approx": false, "is_genuine": true}
+{"lhs": "emp_BirthDate", "rhs": "emp_TitleOfCourtesy", "is_approx": false, "is_genuine": false}
+{"lhs": "DestCityName, ArrTimeBlk", "rhs": "OriginStateName", "is_approx": true, "is_genuine": false}
+{"lhs": "emp_FirstName", "rhs": "emp_Country", "is_approx": false, "is_genuine": false}
+{"lhs": "order_id", "rhs": "loan_id", "is_approx": false, "is_genuine": false}
+{"lhs": "prd_ProductName", "rhs": "prd_CategoryID", "is_approx": false, "is_genuine": false}
+{"lhs": "birthDate", "rhs": "deathDate", "is_approx": false, "is_genuine": false}
+{"lhs": "CRSArrTime", "rhs": "DepartureDelayGroups", "is_approx": true, "is_genuine": false}
+{"lhs": "city_latitude, city_name", "rhs": "city_position", "is_approx": false, "is_genuine": false}
+{"lhs": "city_longitude, airport_name", "rhs": "airport_iata_code", "is_approx": false, "is_genuine": false}
+{"lhs": "emp_FirstName", "rhs": "emp_Region", "is_approx": false, "is_genuine": false}
+{"lhs": "OrderID", "rhs": "emp_FirstName", "is_approx": false, "is_genuine": true}
+{"lhs": "emp_HomePhone", "rhs": "emp_Extension", "is_approx": false, "is_genuine": false}
+{"lhs": "emp_PostalCode", "rhs": "emp_TitleOfCourtesy", "is_approx": false, "is_genuine": false}
+{"lhs": "disp_id", "rhs": "disp_type", "is_approx": false, "is_genuine": true}
+{"lhs": "bioID", "rhs": "birthCountry", "is_approx": false, "is_genuine": true}
+{"lhs": "client_id", "rhs": "loan_id", "is_approx": false, "is_genuine": false}
+{"lhs": "emp_HireDate", "rhs": "emp_Country", "is_approx": false, "is_genuine": false}
+{"lhs": "CRSElapsedTime", "rhs": "DepartureDelayGroups", "is_approx": true, "is_genuine": false}
+{"lhs": "emp_HomePhone", "rhs": "emp_FirstName", "is_approx": false, "is_genuine": false}
+{"lhs": "ProductID", "rhs": "prd_QuantityPerUnit", "is_approx": false, "is_genuine": true}
+{"lhs": "emp_Address", "rhs": "emp_BirthDate", "is_approx": false, "is_genuine": false}
+{"lhs": "account_id", "rhs": "duration", "is_approx": false, "is_genuine": false}
+{"lhs": "CustomerID", "rhs": "cust_Country", "is_approx": false, "is_genuine": true}
+{"lhs": "FlightNum", "rhs": "DepTimeBlk", "is_approx": true, "is_genuine": false}
+{"lhs": "A2", "rhs": "district_id", "is_approx": false, "is_genuine": false}
+{"lhs": "emp_Address", "rhs": "emp_Country", "is_approx": false, "is_genuine": false}
+{"lhs": "client_id", "rhs": "status", "is_approx": false, "is_genuine": false}
+{"lhs": "loan_id", "rhs": "A3", "is_approx": false, "is_genuine": true}
+{"lhs": "emp_PostalCode", "rhs": "emp_LastName", "is_approx": false, "is_genuine": false}
+{"lhs": "client_id", "rhs": "A4", "is_approx": false, "is_genuine": true}
+{"lhs": "account_id", "rhs": "district_id", "is_approx": false, "is_genuine": true}
+{"lhs": "prd_ProductName", "rhs": "prd_ReorderLevel", "is_approx": false, "is_genuine": false}
+{"lhs": "loan_id", "rhs": "A2", "is_approx": false, "is_genuine": true}
+{"lhs": "disp_id", "rhs": "district_id", "is_approx": false, "is_genuine": true}
+{"lhs": "emp_HomePhone", "rhs": "emp_Address", "is_approx": false, "is_genuine": false}
+{"lhs": "TailNum", "rhs": "OriginStateFips", "is_approx": true, "is_genuine": false}
+{"lhs": "airport_latitude", "rhs": "city_position", "is_approx": false, "is_genuine": false}
+{"lhs": "emp_HomePhone", "rhs": "emp_Country", "is_approx": false, "is_genuine": false}
+{"lhs": "disp_id", "rhs": "account_date", "is_approx": false, "is_genuine": true}
+{"lhs": "order_id", "rhs": "A12", "is_approx": false, "is_genuine": true}
+{"lhs": "emp_FirstName", "rhs": "emp_Address", "is_approx": false, "is_genuine": false}
+{"lhs": "DepDelay", "rhs": "DepDel15", "is_approx": true, "is_genuine": true}
+{"lhs": "account_id", "rhs": "A2", "is_approx": false, "is_genuine": true}
+{"lhs": "EmployeeID", "rhs": "emp_BirthDate", "is_approx": false, "is_genuine": true}
+{"lhs": "emp_LastName", "rhs": "emp_Title", "is_approx": false, "is_genuine": false}
+{"lhs": "emp_HireDate", "rhs": "emp_City", "is_approx": false, "is_genuine": false}
+{"lhs": "DepTime", "rhs": "DepTimeBlk", "is_approx": true, "is_genuine": true}
+{"lhs": "emp_FirstName", "rhs": "emp_Extension", "is_approx": false, "is_genuine": false}
+{"lhs": "DepDelay, Distance", "rhs": "DepTimeBlk", "is_approx": true, "is_genuine": false}
+{"lhs": "city_longitude, airport_name, language_name", "rhs": "language_percentage", "is_approx": false, "is_genuine": false}
+{"lhs": "disp_id", "rhs": "A9", "is_approx": false, "is_genuine": true}
+{"lhs": "OrderID", "rhs": "emp_Country", "is_approx": false, "is_genuine": true}
+{"lhs": "EmployeeID", "rhs": "emp_FirstName", "is_approx": false, "is_genuine": true}
+{"lhs": "AirTime", "rhs": "OriginStateFips", "is_approx": true, "is_genuine": false}
+{"lhs": "TailNum", "rhs": "DepartureDelayGroups", "is_approx": true, "is_genuine": false}
+{"lhs": "bioID", "rhs": "birthDate", "is_approx": false, "is_genuine": true}
+{"lhs": "emp_HomePhone", "rhs": "emp_Title", "is_approx": false, "is_genuine": false}
+{"lhs": "ProductID", "rhs": "prd_UnitPrice", "is_approx": false, "is_genuine": true}
+{"lhs": "account_to", "rhs": "status", "is_approx": false, "is_genuine": false}
+{"lhs": "order_id", "rhs": "k_symbol", "is_approx": false, "is_genuine": true}
+{"lhs": "emp_Address", "rhs": "emp_City", "is_approx": false, "is_genuine": false}
+{"lhs": "Distance, FlightDate", "rhs": "DepartureDelayGroups", "is_approx": true, "is_genuine": false}
+{"lhs": "birthDate", "rhs": "firstseason", "is_approx": false, "is_genuine": false}
+{"lhs": "cust_ContactName", "rhs": "cust_Country", "is_approx": false, "is_genuine": false}
+{"lhs": "bioID", "rhs": "birthCity", "is_approx": false, "is_genuine": true}
+{"lhs": "client_id", "rhs": "account_date", "is_approx": false, "is_genuine": false}
+{"lhs": "DestCityMarketID, ArrTimeBlk", "rhs": "OriginStateName", "is_approx": true, "is_genuine": false}
+{"lhs": "bioID", "rhs": "lastName", "is_approx": false, "is_genuine": true}
+{"lhs": "order_id", "rhs": "A16", "is_approx": false, "is_genuine": true}
+{"lhs": "ActualElapsedTime", "rhs": "DepTimeBlk", "is_approx": true, "is_genuine": false}
+{"lhs": "client_id", "rhs": "loan_amount", "is_approx": false, "is_genuine": false}
+{"lhs": "DepDelay, ArrDelay", "rhs": "OriginStateName", "is_approx": true, "is_genuine": false}
+{"lhs": "country_code, airport_name, city_name", "rhs": "airport_iata_code", "is_approx": false, "is_genuine": true}
+{"lhs": "DestAirportID, ArrDelay", "rhs": "OriginStateName", "is_approx": true, "is_genuine": false}
+{"lhs": "cust_CompanyName", "rhs": "cust_City", "is_approx": false, "is_genuine": false}
+{"lhs": "Dest, FlightDate", "rhs": "OriginStateName", "is_approx": true, "is_genuine": false}
+{"lhs": "EmployeeID", "rhs": "emp_ReportsTo", "is_approx": false, "is_genuine": true}
+{"lhs": "country_capital_name", "rhs": "country_population", "is_approx": false, "is_genuine": false}
+{"lhs": "district_id", "rhs": "A15", "is_approx": false, "is_genuine": true}
+{"lhs": "OriginStateFips", "rhs": "OriginStateName", "is_approx": true, "is_genuine": true}
+{"lhs": "AirTime", "rhs": "DepDel15", "is_approx": true, "is_genuine": false}
+{"lhs": "AirTime", "rhs": "OriginStateName", "is_approx": true, "is_genuine": false}
+{"lhs": "FlightNum", "rhs": "OriginStateName", "is_approx": true, "is_genuine": false}
+{"lhs": "city_population, city_longitude", "rhs": "city_position", "is_approx": false, "is_genuine": false}
+{"lhs": "DepartureDelayGroups", "rhs": "Cancelled", "is_approx": true, "is_genuine": false}
+{"lhs": "order_id", "rhs": "duration", "is_approx": false, "is_genuine": false}
+{"lhs": "loan_id", "rhs": "district_id", "is_approx": false, "is_genuine": true}
+{"lhs": "loan_id", "rhs": "payments", "is_approx": false, "is_genuine": true}
+{"lhs": "CustomerID", "rhs": "cust_ContactTitle", "is_approx": false, "is_genuine": true}
+{"lhs": "A2", "rhs": "A4", "is_approx": false, "is_genuine": false}
+{"lhs": "DestCityName, TaxiOut", "rhs": "OriginStateName", "is_approx": true, "is_genuine": false}
+{"lhs": "DepTimeBlk, TaxiOut", "rhs": "OriginStateName", "is_approx": true, "is_genuine": false}
+{"lhs": "EmployeeID", "rhs": "emp_Title", "is_approx": false, "is_genuine": true}
+{"lhs": "loan_id", "rhs": "A10", "is_approx": false, "is_genuine": true}
+{"lhs": "emp_Address", "rhs": "emp_Region", "is_approx": false, "is_genuine": false}
+{"lhs": "loan_id", "rhs": "duration", "is_approx": false, "is_genuine": true}
+{"lhs": "city_longitude, city_elevation", "rhs": "city_position", "is_approx": false, "is_genuine": false}
+{"lhs": "district_id", "rhs": "A6", "is_approx": false, "is_genuine": true}
+{"lhs": "DepTimeBlk, FlightDate", "rhs": "OriginStateName", "is_approx": true, "is_genuine": false}
+{"lhs": "bioID", "rhs": "hsCity", "is_approx": false, "is_genuine": true}
+{"lhs": "bioID", "rhs": "lastseason", "is_approx": false, "is_genuine": true}
+{"lhs": "airport_name, airport_province", "rhs": "airport_iata_code", "is_approx": false, "is_genuine": false}
+{"lhs": "order_id", "rhs": "account_date", "is_approx": false, "is_genuine": true}
+{"lhs": "cust_CompanyName", "rhs": "cust_PostalCode", "is_approx": false, "is_genuine": false}
+{"lhs": "emp_PostalCode", "rhs": "emp_HomePhone", "is_approx": false, "is_genuine": false}
+{"lhs": "order_id", "rhs": "A15", "is_approx": false, "is_genuine": true}
+{"lhs": "OrderID", "rhs": "emp_Title", "is_approx": false, "is_genuine": true}
+{"lhs": "bioID", "rhs": "collegeOther", "is_approx": false, "is_genuine": true}
+{"lhs": "AirTime", "rhs": "ArrDel15", "is_approx": true, "is_genuine": false}
+{"lhs": "OrderID", "rhs": "emp_ReportsTo", "is_approx": false, "is_genuine": true}
+{"lhs": "bioID", "rhs": "height", "is_approx": false, "is_genuine": true}
+{"lhs": "disp_id", "rhs": "A8", "is_approx": false, "is_genuine": true}
+{"lhs": "Dest, DistanceGroup", "rhs": "OriginStateName", "is_approx": true, "is_genuine": false}
+{"lhs": "ProductID", "rhs": "prd_SupplierID", "is_approx": false, "is_genuine": true}
+{"lhs": "A2", "rhs": "A16", "is_approx": false, "is_genuine": false}
+{"lhs": "CustomerID", "rhs": "cust_ContactName", "is_approx": false, "is_genuine": true}
+{"lhs": "emp_PostalCode", "rhs": "emp_Extension", "is_approx": false, "is_genuine": false}
+{"lhs": "airport_longitude", "rhs": "city_position", "is_approx": false, "is_genuine": false}
+{"lhs": "DestCityName, TaxiIn", "rhs": "OriginStateName", "is_approx": true, "is_genuine": false}
+{"lhs": "prd_ProductName", "rhs": "prd_UnitsOnOrder", "is_approx": false, "is_genuine": false}
+{"lhs": "CustomerID", "rhs": "cust_Phone", "is_approx": false, "is_genuine": true}
+{"lhs": "DepTimeBlk, TaxiIn", "rhs": "OriginStateName", "is_approx": true, "is_genuine": false}
+{"lhs": "order_id", "rhs": "bank_to", "is_approx": false, "is_genuine": true}
+{"lhs": "TaxiOut, ArrDelay", "rhs": "OriginStateName", "is_approx": true, "is_genuine": false}
+{"lhs": "TailNum", "rhs": "OriginStateName", "is_approx": true, "is_genuine": false}
+{"lhs": "disp_id", "rhs": "A4", "is_approx": false, "is_genuine": true}
+{"lhs": "ord_ShipName", "rhs": "cust_Phone", "is_approx": false, "is_genuine": false}
+{"lhs": "emp_BirthDate", "rhs": "emp_FirstName", "is_approx": false, "is_genuine": false}
+{"lhs": "airport_latitude", "rhs": "airport_iata_code", "is_approx": false, "is_genuine": false}
+{"lhs": "AirTime", "rhs": "DepTimeBlk", "is_approx": true, "is_genuine": false}
+{"lhs": "DayofMonth, ArrTimeBlk", "rhs": "DepDel15", "is_approx": true, "is_genuine": false}
+{"lhs": "account_id", "rhs": "loan_id", "is_approx": false, "is_genuine": false}
+{"lhs": "ProductID", "rhs": "prd_Discontinued", "is_approx": false, "is_genuine": true}
+{"lhs": "CustomerID", "rhs": "ord_ShipPostalCode", "is_approx": false, "is_genuine": false}
+{"lhs": "emp_HomePhone", "rhs": "emp_ReportsTo", "is_approx": false, "is_genuine": false}
+{"lhs": "prd_ProductName", "rhs": "prd_QuantityPerUnit", "is_approx": false, "is_genuine": false}
+{"lhs": "disp_id", "rhs": "A11", "is_approx": false, "is_genuine": true}
+{"lhs": "OriginState", "rhs": "OriginStateFips", "is_approx": true, "is_genuine": true}
+{"lhs": "order_id", "rhs": "account_id", "is_approx": false, "is_genuine": true}
+{"lhs": "A2", "rhs": "A11", "is_approx": false, "is_genuine": false}
+{"lhs": "DepDelay, FlightDate", "rhs": "DepTimeBlk", "is_approx": true, "is_genuine": false}
+{"lhs": "DepDelay, TaxiIn", "rhs": "OriginStateName", "is_approx": true, "is_genuine": false}
+{"lhs": "ArrDelay, Distance", "rhs": "DepTimeBlk", "is_approx": true, "is_genuine": false}
+{"lhs": "CRSArrTime", "rhs": "DepTimeBlk", "is_approx": true, "is_genuine": false}
+{"lhs": "fullGivenName", "rhs": "hsCity", "is_approx": false, "is_genuine": false}
+{"lhs": "DepTime", "rhs": "DepDel15", "is_approx": true, "is_genuine": false}
+{"lhs": "emp_BirthDate", "rhs": "emp_LastName", "is_approx": false, "is_genuine": false}
+{"lhs": "emp_Address", "rhs": "emp_HomePhone", "is_approx": false, "is_genuine": false}
+{"lhs": "TaxiOut, TaxiIn", "rhs": "OriginStateName", "is_approx": true, "is_genuine": false}
+{"lhs": "emp_LastName", "rhs": "emp_Address", "is_approx": false, "is_genuine": false}
+{"lhs": "FlightNum", "rhs": "DepDel15", "is_approx": true, "is_genuine": false}
+{"lhs": "Origin", "rhs": "OriginStateName", "is_approx": true, "is_genuine": true}
+{"lhs": "DepTimeBlk, DayofMonth", "rhs": "OriginStateName", "is_approx": true, "is_genuine": false}
+{"lhs": "emp_HomePhone", "rhs": "emp_Region", "is_approx": false, "is_genuine": false}
+{"lhs": "city_longitude, airport_name", "rhs": "country_population", "is_approx": false, "is_genuine": false}
+{"lhs": "fullGivenName", "rhs": "birthCity", "is_approx": false, "is_genuine": false}
+{"lhs": "CustomerID", "rhs": "cust_PostalCode", "is_approx": false, "is_genuine": true}
+{"lhs": "order_id", "rhs": "A8", "is_approx": false, "is_genuine": true}
+{"lhs": "cust_CompanyName", "rhs": "cust_ContactName", "is_approx": false, "is_genuine": false}
+{"lhs": "ArrDelay, ArrTimeBlk", "rhs": "OriginStateName", "is_approx": true, "is_genuine": false}
+{"lhs": "bioID", "rhs": "firstName", "is_approx": false, "is_genuine": true}
+{"lhs": "emp_BirthDate", "rhs": "emp_Region", "is_approx": false, "is_genuine": false}
+{"lhs": "EmployeeID", "rhs": "emp_HomePhone", "is_approx": false, "is_genuine": true}
+{"lhs": "airport_name, airport_elevation", "rhs": "airport_iata_code", "is_approx": false, "is_genuine": false}
+{"lhs": "CustomerID", "rhs": "cust_CompanyName", "is_approx": false, "is_genuine": true}
+{"lhs": "prd_ProductName", "rhs": "prd_Discontinued", "is_approx": false, "is_genuine": false}
+{"lhs": "bioID", "rhs": "pos", "is_approx": false, "is_genuine": true}
+{"lhs": "OrderID", "rhs": "emp_Extension", "is_approx": false, "is_genuine": true}
+{"lhs": "birthDate", "rhs": "lastseason", "is_approx": false, "is_genuine": false}
+{"lhs": "loan_id", "rhs": "A7", "is_approx": false, "is_genuine": true}
+{"lhs": "loan_id", "rhs": "A13", "is_approx": false, "is_genuine": true}
+{"lhs": "birthDate", "rhs": "collegeOther", "is_approx": false, "is_genuine": false}
+{"lhs": "emp_LastName", "rhs": "emp_Extension", "is_approx": false, "is_genuine": false}
+{"lhs": "emp_Address", "rhs": "emp_ReportsTo", "is_approx": false, "is_genuine": false}
+{"lhs": "ord_ShipName", "rhs": "cust_City", "is_approx": false, "is_genuine": false}
+{"lhs": "order_id", "rhs": "loan_amount", "is_approx": false, "is_genuine": false}
+{"lhs": "loan_id", "rhs": "loan_amount", "is_approx": false, "is_genuine": true}
+{"lhs": "airport_longitude", "rhs": "airport_iata_code", "is_approx": false, "is_genuine": false}
+{"lhs": "OriginCityMarketID", "rhs": "OriginStateName", "is_approx": true, "is_genuine": true}
+{"lhs": "DepDelay, FlightDate", "rhs": "OriginStateName", "is_approx": true, "is_genuine": false}
+{"lhs": "CustomerID", "rhs": "cust_City", "is_approx": false, "is_genuine": true}
+{"lhs": "order_id", "rhs": "A5", "is_approx": false, "is_genuine": true}
+{"lhs": "city_province, airport_name", "rhs": "country_population", "is_approx": false, "is_genuine": false}
+{"lhs": "district_id", "rhs": "A12", "is_approx": false, "is_genuine": true}
+{"lhs": "emp_LastName", "rhs": "emp_Region", "is_approx": false, "is_genuine": false}
+{"lhs": "CustomerID", "rhs": "ord_ShipAddress", "is_approx": false, "is_genuine": false}
+{"lhs": "DestCityMarketID, TaxiOut", "rhs": "OriginStateName", "is_approx": true, "is_genuine": false}
+{"lhs": "ArrTimeBlk, FlightDate", "rhs": "OriginStateName", "is_approx": true, "is_genuine": false}
+{"lhs": "order_id", "rhs": "account_to", "is_approx": false, "is_genuine": true}
+{"lhs": "ArrTime", "rhs": "ArrDel15", "is_approx": true, "is_genuine": false}
+{"lhs": "bioID", "rhs": "birthState", "is_approx": false, "is_genuine": true}
+{"lhs": "DestAirportSeqID, TaxiIn", "rhs": "OriginStateName", "is_approx": true, "is_genuine": false}
+{"lhs": "city_province, airport_name", "rhs": "airport_iata_code", "is_approx": false, "is_genuine": false}
+{"lhs": "ActualElapsedTime", "rhs": "OriginStateName", "is_approx": true, "is_genuine": false}
+{"lhs": "account_id", "rhs": "loan_amount", "is_approx": false, "is_genuine": false}
+{"lhs": "disp_id", "rhs": "A7", "is_approx": false, "is_genuine": true}
+{"lhs": "loan_id", "rhs": "A16", "is_approx": false, "is_genuine": true}
+{"lhs": "emp_PostalCode", "rhs": "emp_Country", "is_approx": false, "is_genuine": false}
+{"lhs": "DestCityName, ArrDelay", "rhs": "OriginStateName", "is_approx": true, "is_genuine": false}
+{"lhs": "emp_Address", "rhs": "EmployeeID", "is_approx": false, "is_genuine": false}
+{"lhs": "emp_Address", "rhs": "emp_Extension", "is_approx": false, "is_genuine": false}
+{"lhs": "EmployeeID", "rhs": "emp_TitleOfCourtesy", "is_approx": false, "is_genuine": true}
+{"lhs": "CRSArrTime", "rhs": "DepDel15", "is_approx": true, "is_genuine": false}
+{"lhs": "emp_FirstName", "rhs": "emp_PostalCode", "is_approx": false, "is_genuine": false}
+{"lhs": "emp_Region", "rhs": "emp_Country", "is_approx": false, "is_genuine": false}
+{"lhs": "ord_ShipName", "rhs": "cust_ContactTitle", "is_approx": false, "is_genuine": false}
+{"lhs": "city_latitude, city_longitude", "rhs": "city_position", "is_approx": false, "is_genuine": true}
+{"lhs": "points", "rhs": "nameGiven", "is_approx": false, "is_genuine": false}
+{"lhs": "order_id", "rhs": "payments", "is_approx": false, "is_genuine": false}
+{"lhs": "fullGivenName", "rhs": "firstseason", "is_approx": false, "is_genuine": false}
+{"lhs": "client_id", "rhs": "duration", "is_approx": false, "is_genuine": false}
+{"lhs": "EmployeeID", "rhs": "emp_Region", "is_approx": false, "is_genuine": true}
+{"lhs": "city_latitude, airport_name", "rhs": "country_population", "is_approx": false, "is_genuine": false}
+{"lhs": "district_id", "rhs": "A14", "is_approx": false, "is_genuine": true}
+{"lhs": "account_id", "rhs": "loan_date", "is_approx": false, "is_genuine": false}
+{"lhs": "TaxiIn, ArrDelay", "rhs": "OriginStateName", "is_approx": true, "is_genuine": false}
+{"lhs": "district_id", "rhs": "A5", "is_approx": false, "is_genuine": true}
+{"lhs": "OrderID", "rhs": "emp_HireDate", "is_approx": false, "is_genuine": true}
+{"lhs": "TaxiIn, FlightDate", "rhs": "DepDel15", "is_approx": true, "is_genuine": false}
+{"lhs": "emp_FirstName", "rhs": "emp_BirthDate", "is_approx": false, "is_genuine": false}
+{"lhs": "loan_id", "rhs": "A12", "is_approx": false, "is_genuine": true}
+{"lhs": "OriginWac", "rhs": "OriginStateName", "is_approx": true, "is_genuine": true}
+{"lhs": "ord_ShipAddress", "rhs": "cust_Address", "is_approx": false, "is_genuine": false}
+{"lhs": "airport_name, airport_province", "rhs": "country_population", "is_approx": false, "is_genuine": false}
+{"lhs": "emp_City", "rhs": "emp_Region", "is_approx": false, "is_genuine": false}
+{"lhs": "disp_id", "rhs": "account_id", "is_approx": false, "is_genuine": true}
+{"lhs": "disp_id", "rhs": "loan_id", "is_approx": false, "is_genuine": false}
+{"lhs": "emp_Address", "rhs": "emp_PostalCode", "is_approx": false, "is_genuine": false}
+{"lhs": "emp_LastName", "rhs": "emp_ReportsTo", "is_approx": false, "is_genuine": false}
+{"lhs": "ArrTime", "rhs": "DepTimeBlk", "is_approx": true, "is_genuine": false}
+{"lhs": "DestCityName, DistanceGroup", "rhs": "OriginStateName", "is_approx": true, "is_genuine": false}
+{"lhs": "emp_HomePhone", "rhs": "emp_PostalCode", "is_approx": false, "is_genuine": false}
+{"lhs": "Dest, TaxiOut", "rhs": "OriginStateName", "is_approx": true, "is_genuine": false}
+{"lhs": "loan_id", "rhs": "A14", "is_approx": false, "is_genuine": true}
+{"lhs": "emp_BirthDate", "rhs": "emp_HomePhone", "is_approx": false, "is_genuine": false}
+{"lhs": "CustomerID", "rhs": "cust_Address", "is_approx": false, "is_genuine": true}
+{"lhs": "loan_id", "rhs": "status", "is_approx": false, "is_genuine": true}
+{"lhs": "ActualElapsedTime", "rhs": "DepartureDelayGroups", "is_approx": true, "is_genuine": false}
+{"lhs": "TaxiIn, DayofMonth", "rhs": "DepDel15", "is_approx": true, "is_genuine": false}
+{"lhs": "DestAirportID, ArrTimeBlk", "rhs": "OriginStateName", "is_approx": true, "is_genuine": false}
+{"lhs": "DestCityMarketID, DepTimeBlk", "rhs": "OriginStateName", "is_approx": true, "is_genuine": false}
+{"lhs": "ord_ShipName", "rhs": "cust_Fax", "is_approx": false, "is_genuine": false}
+{"lhs": "client_id", "rhs": "A2", "is_approx": false, "is_genuine": true}
+{"lhs": "DestCityMarketID, FlightDate", "rhs": "OriginStateName", "is_approx": true, "is_genuine": false}

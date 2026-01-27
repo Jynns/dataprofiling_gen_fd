@@ -1,0 +1,75 @@
+{
+  "builder_name": "json",
+  "citation": "",
+  "config_name": "default",
+  "dataset_name": "json",
+  "dataset_size": 1830,
+  "description": "",
+  "download_checksums": {
+    "C:/Users/andyt/Data Profiling/EDA/dataprofiling_gen_fd/val.jsonl": {
+      "num_bytes": 5017,
+      "checksum": null
+    }
+  },
+  "download_size": 5017,
+  "features": {
+    "lhs": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "rhs": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "is_approx": {
+      "dtype": "bool",
+      "_type": "Value"
+    },
+    "is_genuine": {
+      "dtype": "bool",
+      "_type": "Value"
+    },
+    "text": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "labels": {
+      "feature": {
+        "dtype": "int64",
+        "_type": "Value"
+      },
+      "_type": "List"
+    },
+    "input_ids": {
+      "feature": {
+        "dtype": "int32",
+        "_type": "Value"
+      },
+      "_type": "List"
+    },
+    "attention_mask": {
+      "feature": {
+        "dtype": "int8",
+        "_type": "Value"
+      },
+      "_type": "List"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 6847,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 1830,
+      "num_examples": 57,
+      "dataset_name": "json"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}
