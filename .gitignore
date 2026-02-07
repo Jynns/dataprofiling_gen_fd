@@ -18,3 +18,4 @@ datagen/*
 .DS_Store
 results/
 notebooks/__pycache__/*
+.windowsenv/*
