@@ -19,3 +19,5 @@ datagen/*
 results/
 notebooks/__pycache__/*
 .windowsenv/*
+__pycache__/
+*.pyc
