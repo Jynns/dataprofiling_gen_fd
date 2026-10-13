@@ -1,23 +1,19 @@
-*line.csv
-2025-11-14_17-00-10_fds.csv
-croppedairline_sampledoveruniqueid.csv
-results/*_fds
-results/*_uccs
-results/results_algo
-*.jar
-cars_relevant_fds
-NorthwindOrdersCustomersEmployees.csv
-NW_OCE.csv
-NW_OCEP.csv
-dataprofilingenv/*
-data/training_data.csv
-data/*
-data_archive/*
-*.jar
-datagen/*
-.DS_Store
-results/
-notebooks/__pycache__/*
-.windowsenv/*
+# --- Python -----------------------------------------------------------------
 __pycache__/
 *.pyc
+*.egg-info/
+.ipynb_checkpoints/
+
+# --- Environments -----------------------------------------------------------
+dataprofilingenv/
+.windowsenv/
+
+# --- Local data (restore from data/archives/, see README) -------------------
+data/tables/
+data/fds/
+
+# --- Tools ------------------------------------------------------------------
+*.jar
+
+# --- Misc -------------------------------------------------------------------
+.DS_Store

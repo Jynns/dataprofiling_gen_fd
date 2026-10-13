@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 import json
 from abc import ABC, abstractmethod
-from llm_utils import generate_column_desc
+from .llm_utils import generate_column_desc
 
 class DataTransformer(ABC):
     """Base data transformer"""

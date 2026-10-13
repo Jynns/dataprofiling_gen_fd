@@ -1,23 +1,24 @@
 import argparse
 from datetime import datetime
 from pathlib import Path
-from data_transformer import IdentityTransformer, LLMDescTransformer
-from classifiers import LLMClassifier, RandomClassifier
-from evaluation.evaluate_fd import evaluate_fd_classification
+from fdgen.data_transformer import IdentityTransformer, LLMDescTransformer
+from fdgen.classifiers import LLMClassifier, RandomClassifier
+from fdgen.evaluate_fd import evaluate_fd_classification
+from fdgen.paths import EVALUATION_DIR
 import pandas as pd
 from sklearn.model_selection import train_test_split
 
 # clf = RandomClassifier()
 
-# clf.fit(r"C:\Users\Andy\Data Profiling\EDA\dataprofiling_gen_fd\dataset.csv")
+# clf.fit("data/dataset.csv")
 
 # clf.predict(
-#     csv_path=r"C:\Users\Andy\Data Profiling\EDA\dataprofiling_gen_fd\dataset.csv",
-#     output_path=r"C:\Users\Andy\Data Profiling\EDA\dataprofiling_gen_fd\evaluation"
+#     csv_path="data/dataset.csv",
+#     output_path="outputs/evaluation"
 # )   
 
 # evaluate_fd_classification(
-#     csv_path=r"C:\Users\Andy\Data Profiling\EDA\dataprofiling_gen_fd\evaluation\dataset_predicted.csv",
+#     csv_path="outputs/evaluation/dataset_predicted.csv",
 #     separator=",",
 #     escape="\\",
 #     quote="\""
@@ -71,7 +72,7 @@ if __name__ == "__main__":
     
     parser.add_argument(
         "--outputdir", 
-        default="evaluation", 
+        default=str(EVALUATION_DIR), 
         help="Where to write splits/preds."
     )
 

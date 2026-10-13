@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 from abc import ABC, abstractmethod
 
-from llm_utils import call_ollama, fd_classify_prompt, call_perplexity
+from .llm_utils import call_ollama, fd_classify_prompt, call_perplexity
 
 class Classifier(ABC):
     """Base classifier"""
@@ -157,10 +157,10 @@ class LLMClassifier(Classifier):
 
 
 # clf = RandomClassifier()
-# clf.fit(r"C:\Users\Andy\Data Profiling\EDA\dataprofiling_gen_fd\dataset.csv")
+# clf.fit("data/dataset.csv")
 
 # clf.predict(
-#     csv_path=r"C:\Users\Andy\Data Profiling\EDA\dataprofiling_gen_fd\dataset.csv",
+#     csv_path="data/dataset.csv",
 # )
 
 

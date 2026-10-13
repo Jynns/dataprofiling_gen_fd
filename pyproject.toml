@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fdgen"
+version = "0.1.0"
+description = "Classifying discovered functional dependencies as genuine or accidental"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "pandas",
+    "numpy",
+    "scikit-learn",
+    "scipy",
+    "matplotlib",
+    "seaborn",
+    "sentence-transformers",
+    "python-Levenshtein",
+    "python-dotenv",
+    "requests",
+    "openai",
+]
+
+[project.optional-dependencies]
+finetune = ["torch", "transformers", "datasets", "peft"]
+
+[tool.setuptools]
+packages = ["fdgen"]

@@ -8,7 +8,9 @@ import csv
 import json
 import re
 
-load_dotenv()
+from .paths import COLUMN_DESCRIPTIONS_JSON, ENV_FILE
+
+load_dotenv(ENV_FILE)
 
 LLM_MODEL = os.getenv("LLM_MODEL", "llama2-7b-chat")
 OLLAMA_API_URL = os.getenv("OLLAMA_API_URL", "http://localhost:11434")
@@ -201,7 +203,7 @@ def generate_all_column_descriptions(data_dir: str, dest_path: str = None) -> st
     
     # Determine save path
     if dest_path is None:
-        dest_path = os.path.join(os.getcwd(), "column_descriptions.json")
+        dest_path = COLUMN_DESCRIPTIONS_JSON
     elif os.path.isdir(dest_path):
         # If dest_path is a directory, append the filename
         dest_path = os.path.join(dest_path, "column_descriptions.json")

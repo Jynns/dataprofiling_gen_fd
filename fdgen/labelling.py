@@ -2,6 +2,8 @@ import re
 import pandas as pd
 import os
 
+from .paths import DATASET_CSV
+
 
 def turnListToString(li):
     """joins attributenames of rhs to string with comma seperation"""
@@ -92,7 +94,7 @@ def convertToDataFrame(fds, table_name, is_approx, null_eq_null, is_genuine):
     })   
     return wb_dataframe
 
-_FILENAME_TRAININGDATA = '../dataset.csv'
+_FILENAME_TRAININGDATA = DATASET_CSV
 
 def writeBackTrainingData(df: pd.DataFrame):
     """
@@ -115,7 +117,7 @@ def writeBackTrainingData(df: pd.DataFrame):
             - Overwrite training.csv with the concatenated dataframe
     """
 
-    file_path = os.path.join('.', _FILENAME_TRAININGDATA)
+    file_path = _FILENAME_TRAININGDATA
     # No existing file: just write the new df
     if not os.path.exists(file_path):
         df.to_csv(file_path, index=False)
